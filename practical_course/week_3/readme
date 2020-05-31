@@ -1,0 +1,10 @@
+自己参考实现：
+	inference.ipynb # 模型推理与对比分析
+	MyDeepLab.py    
+	decoder.py
+	aspp.py
+	mymobilenet.py
+开源实现：
+	modeling/  # 开源实现repo的模型结构定义部分
+	https://github.com/jfzhang95/pytorch-deeplab-xception
+
