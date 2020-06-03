@@ -1,8 +1,8 @@
 自己参考实现：
 	inference.ipynb # 模型推理与对比分析
 	MyDeepLab.py    
-	decoder.py
-	aspp.py
+	mydecoder.py
+	myaspp.py
 	mymobilenet.py
 开源实现：
 	modeling/  # 开源实现repo的模型结构定义部分

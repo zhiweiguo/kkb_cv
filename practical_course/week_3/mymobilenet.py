@@ -139,6 +139,7 @@ class MyMobileNetV2(nn.Module):
                 m.weight.data.fill_(1)
                 m.bias.data.zero_()
 
+
 if __name__ == "__main__":
     input = torch.rand(1, 3, 512, 512)
     model = MyMobileNetV2(output_stride=16, BatchNorm=nn.BatchNorm2d)

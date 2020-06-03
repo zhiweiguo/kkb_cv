@@ -1,16 +1,17 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F 
-from aspp import build_aspp
-from decoder import build_decoder
-import mymobilenet  
+from myaspp import build_aspp
+from mydecoder import build_decoder
+from mymobilenet import MyMobileNetV2
+
 
 def build_backbone(backbone, output_stride, BatchNorm):
+    # 暂时只实现了MobileNet
     if backbone == 'mobilenet':
-        return mymobilenet.MyMobileNetV2(output_stride, BatchNorm)
+        return MyMobileNetV2(output_stride, BatchNorm)
     else:
         raise NotImplementedError
-
 
 class MyDeepLab(nn.Module):
     def __init__(self, backbone='mobilenet', output_stride=16, num_classes=21, freeze_bn=False):
@@ -35,6 +36,6 @@ if __name__ == "__main__":
     state_dict = torch.load('deeplab-mobilenet.pth.tar', map_location=torch.device('cpu'))
     model.load_state_dict(state_dict['state_dict'])
     model.eval()
-    input = torch.rand(1, 3, 513, 513)
+    input = torch.rand(1, 3, 512, 512)
     output = model(input)
     print(output.size())
