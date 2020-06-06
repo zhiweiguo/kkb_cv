@@ -1,0 +1,3 @@
+bp.py        # 自己实现的bp模型
+data.py      # 读取mnist数据,预处理等功能
+train.ipynb  # 模型训练与对比,包含两种模型
