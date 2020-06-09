@@ -1,0 +1,20 @@
+week_4作业代码说明
+
+自己实现部分：
+	inference.ipynb    模型推理预测
+	data/laneline.py   数据集类，用于结合DataLoader使用
+	data/util.py	   生成训练集合验证集文件，类别与索引之间的编码，解码
+	week_3自己实现的DeepLab代码
+
+参考借鉴部分
+	utils目录下关于训练，损失，优化器，损失等功能
+	train.py整体的训练结构
+
+
+模型训练过程说明：
+1. 采用交叉熵损失训练
+2. 模型结构采用mobilenet作为骨干网络
+3. 使用单gpu训练，batch_size使用过16,32，inference.ipynb中的效果为epoch=2是得到的模型
+4. 目前仍在不断训练中，数据集暂时只使用了Road02的数据，训练集5000多张
+
+
