@@ -1,0 +1,30 @@
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=2, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 5023
+Number of images in val: 559
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0100,                 previous best = 0.0000
+[Epoch: 0, numImages:  5023]
+Loss: 1.227
+Validation:
+[Epoch: 0, numImages:   559]
+Acc:0.9783008627518924, Acc_class:0.12509921588694897, mIoU:0.12239507876654548, fwIoU: 0.9571423863934905
+Loss: 0.194
+
+=>Epoches 1, learning rate = 0.0098,                 previous best = 0.1224
+[Epoch: 1, numImages:  5023]
+Loss: 0.720
+Validation:
+[Epoch: 1, numImages:   559]
+Acc:0.9782961044553758, Acc_class:0.12517202397636773, mIoU:0.1224677589963674, fwIoU: 0.9571427793256777
+Loss: 0.167
+
+=>Epoches 2, learning rate = 0.0095,                 previous best = 0.1225
+[Epoch: 2, numImages:  5023]
+Loss: 0.673
+Validation:
+[Epoch: 2, numImages:   559]
+Acc:0.978339792414964, Acc_class:0.1251205252434737, mIoU:0.12241677945004166, fwIoU: 0.9571813991073272
+Loss: 0.147

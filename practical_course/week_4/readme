@@ -16,5 +16,6 @@ week_4作业代码说明
 2. 模型结构采用mobilenet作为骨干网络
 3. 使用单gpu训练，batch_size使用过16,32，inference.ipynb中的效果为epoch=2是得到的模型
 4. 目前仍在不断训练中，数据集暂时只使用了Road02的数据，训练集5000多张
+5. log.txt为训练过程的log,保存了每个epoch后的各个指标的评估结果
 
 
