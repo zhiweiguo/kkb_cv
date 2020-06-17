@@ -1,0 +1,63 @@
+Namespace(backbone='mobilenet', base_size=1024, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='dice', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-mobilenet/model_best.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=2, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 5023
+Number of images in val: 559
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-mobilenet/model_best.pth.tar' (epoch 2)
+Starting Epoch: 2
+Total Epoches: 40
+
+=>Epoches 2, learning rate = 0.0095,                 previous best = 0.1431
+[Epoch: 2, numImages:  5023]
+Loss: 30.397
+Validation:
+[Epoch: 2, numImages:   559]
+Acc:0.9600767502352009, Acc_class:0.125, mIoU:0.12000959377940011, fwIoU: 0.9217473663421843
+Loss: 3.681
+
+=>Epoches 3, learning rate = 0.0093,                 previous best = 0.1431
+[Epoch: 3, numImages:  5023]
+Loss: 30.206
+Validation:
+[Epoch: 3, numImages:   559]
+Acc:0.007355667050600018, Acc_class:0.125, mIoU:0.0009194583813250022, fwIoU: 5.410583775928277e-05
+Loss: 3.674
+
+=>Epoches 4, learning rate = 0.0091,                 previous best = 0.1431
+[Epoch: 4, numImages:  5023]
+Loss: 30.141
+Validation:
+[Epoch: 4, numImages:   559]
+Acc:0.007355667050600018, Acc_class:0.125, mIoU:0.0009194583813250022, fwIoU: 5.410583775928277e-05
+Loss: 3.672
+Namespace(backbone='mobilenet', base_size=1024, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-mobilenet/model_best.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=2, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=6)
+Number of images in train: 5023
+Number of images in val: 559
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-mobilenet/model_best.pth.tar' (epoch 2)
+加载预训练模型ok
+Starting Epoch: 2
+Total Epoches: 40
+
+=>Epoches 2, learning rate = 0.0095,                 previous best = 0.1431
+[Epoch: 2, numImages:  5023]
+Loss: 1.136
+Validation:
+[Epoch: 2, numImages:   559]
+Acc:0.9509938963223337, Acc_class:0.1808283236062072, mIoU:0.1464486600501057, fwIoU: 0.9173270739879051
+Loss: 0.243
+
+=>Epoches 3, learning rate = 0.0093,                 previous best = 0.1464
+[Epoch: 3, numImages:  5023]
+Loss: 1.089
+Validation:
+[Epoch: 3, numImages:   559]
+Acc:0.9583345475486409, Acc_class:0.16710030722036162, mIoU:0.1487011145147723, fwIoU: 0.9240974945102376
+Loss: 0.203
+
+=>Epoches 4, learning rate = 0.0091,                 previous best = 0.1487
+[Epoch: 4, numImages:  5023]
+Loss: 1.052
+Validation:
+[Epoch: 4, numImages:   559]
+Acc:0.9594572472190153, Acc_class:0.1620143977309393, mIoU:0.14752845504821244, fwIoU: 0.9248961295792488
+Loss: 0.176
