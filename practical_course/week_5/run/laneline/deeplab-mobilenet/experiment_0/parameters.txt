@@ -1,9 +1,0 @@
-datset:laneline
-backbone:mobilenet
-out_stride:16
-lr:0.01
-lr_scheduler:poly
-loss_type:ce
-epoch:30
-base_size:513
-crop_size:513
