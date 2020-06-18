@@ -2,6 +2,62 @@ import torch
 import torch.nn as nn
 
 
+# diceloss版本1:
+def dice_loss(input,target):
+    """
+    对应链接: https://github.com/rogertrullo/pytorch/blob/rogertrullo-dice_loss/torch/nn/functional.py#L708
+    input:  shape = [Batch, nclasses, H, W],  representing log probabilities for each class
+    target: 1-hot,  representation of the groundtruth, shoud have same size as the input
+    """
+    assert input.size() == target.size(), "Input sizes must be equal."
+    assert input.dim() == 4, "Input must be a 4D Tensor."
+    uniques=np.unique(target.numpy())
+    assert set(list(uniques))<=set([0,1]), "target must only contain zeros and ones"
+
+    probs=F.softmax(input)
+    num=probs*target#b,c,h,w--p*g
+    num=torch.sum(num,dim=3)#b,c,h
+    num=torch.sum(num,dim=2)
+    
+
+    den1=probs*probs#--p^2
+    den1=torch.sum(den1,dim=3)#b,c,h
+    den1=torch.sum(den1,dim=2)
+    
+
+    den2=target*target#--g^2
+    den2=torch.sum(den2,dim=3)#b,c,h
+    den2=torch.sum(den2,dim=2)#b,c
+    
+
+    dice=2*(num/(den1+den2))
+    dice_eso=dice[:,1:]#we ignore bg dice val, and take the fg
+
+    dice_total=-1*torch.sum(dice_eso)/dice_eso.size(0)#divide by batch_sz
+
+    return dice_total
+
+# diceloss版本2:
+class SoftDiceLoss(nn.module):
+    def __init__(self, weight=None, size_average=True):
+        super(SoftDiceLoss, self).__init__()
+
+    def forward(self, logits, targets):
+        num = targets.size(0)
+        smooth = 1
+
+        probs = F.sigmoid(logits)
+        m1 = probs.view(num, -1)
+        m2 = probs.view(num, -1)
+        intersection = (m1 * m2)
+
+        dice_coeff = 2. * (intersection.sum(1) + smooth) / (m1.sum(1) + m2.sum(1) + smooth)
+        dice_loss = 1 - dice_coeff.sum() / num
+ 
+        return dice_loss
+
+
+# diceloss版本3:
 class DiceLoss(nn.Module):
     def __init__(self):
         super(DiceLoss, self).__init__()

@@ -85,6 +85,32 @@ class RandomGaussianBlur(object):
                 'label': mask}
 
 
+class RandomCrop(object):
+    # 直接从原图crop
+    def __init__(self, crop_size, fill=0):
+        self.crop_size = crop_size
+        self.fill = fill
+
+    def __call__(self, sample):
+        img = sample['image']
+        mask = sample['label']
+        w, h = img.size
+        # 判断原始图片尺寸是否满足crop_size, 若不满足, 对其扩展并填充0
+        padw = self.crop_size - w if w < self.crop_size else 0
+        padh = self.crop_size - h if h < self.crop_size else 0
+        img = ImageOps.expand(img, border=(0, 0, padw, padh), fill=0)
+        mask = ImageOps.expand(mask, border=(0, 0, padw, padh), fill=self.fill)
+        # 在有效范围内随机crop,得到crop_size*crop_size的图片
+        w, h = img.size
+        x1 = random.randint(0, w - self.crop_size)
+        y1 = random.randint(0, h - self.crop_size)
+        img = img.crop((x1, y1, x1 + self.crop_size, y1 + self.crop_size))
+        mask = mask.crop((x1, y1, x1 + self.crop_size, y1 + self.crop_size))
+
+        return {'image': img,
+                'label': mask}
+
+
 class RandomScaleCrop(object):
     # 随机尺度的裁剪,先在设定比例内随机resize,再裁剪出crop_size大小的尺寸作为输入
     def __init__(self, base_size, crop_size, fill=0):

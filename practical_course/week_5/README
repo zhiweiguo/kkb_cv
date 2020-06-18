@@ -1,10 +1,15 @@
 week_5内容是基于week_4的基础上扩充了新的功能和训练策略，本次作业主要内容为：
 1. 实现mIoU (代码位置: utils/metrics.py)
-2. 实现diceLoss (代码位置: utils/loss.py 中 DiceLoss, MulticlassDiceLoss 以及补充SegmentationLosses中对应的接口)
+2. 实现diceLoss (代码位置: utils/loss.py 中 SoftDiceLoss, DiceLoss, MulticlassDiceLoss 以及补充SegmentationLosses中对应的接口)
 3. 优化输入数据的预处理代码 (代码位置: data/laneline.py 中将原始数据裁剪掉上面700高度的像素点,因为不包含车道线)
+4. 增加预处理方式RandomCrop (代码位置: data/custom_transform.py)
 
 训练情况介绍：
-1. 基于week_4的模型参数继续训练，各指标有所提升，但从指标看，应该尚未收敛，训练epoch还比较少
+1. 基于week_4的模型参数继续训练，各指标有所提升, mIoU从12%提升到25%,下一步将使用全量数据进行继续训练和优化(当前只使用了5000多样本训练)
 2. 使用diceLoss训练模型过程中，发现每完成一个epoch之后,训练集loss几乎不变，而且mIoU等参数却下降,正在排查原因,先替换为原来的交叉熵loss继续训练模型
 3. 模型评估效果在inference.ipynb中，对不同的图片进行了推断展示，发现当图片的亮度较暗时，当前模型很难识别出车道线，亮度较亮且车道线比较明显时易识别出来.
-4. week_5训练过程各个指标的情况见week5_log.txt4. week_5训练过程各个指标的情况见week5_log.txt4. week_5训练过程各个指标的情况见week5_log.txt4. week_5训练过程各个指标的情况见week5_log.txt
+4. week_5训练过程各个指标的情况见week5_log.txt,并持续更新到github中
+
+tricks:
+1. 基于github中开源的预训练模型训练(最后一层类别不同,随机初始化)
+2. 优化数据预处理方式,采用对原图裁剪掉上面700像素高度后,直接crop出crop_size宽高的图像作为输入(原来是先resize，再crop，考虑到车道线所占像素本身就少，直接crop可以增加车道线的像素占比)

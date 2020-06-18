@@ -80,8 +80,17 @@ class Trainer(object):
         if args.ft:
             args.start_epoch = 0
 
+        # 获取当前模型各层的名称
+        layer_name = list(self.model.state_dict().keys())
+        print(self.model.state_dict()[layer_name[3]])
+        # 加载通用的预训练模型
         pretrained = './pretrained_model/deeplab-mobilenet.pth.tar'
-        self.model.module.load_state_dict(torch.load(pretrained), strict=False)
+        pre_ckpt = torch.load(pretrained)
+        key_name = list(checkpoint['state_dict'].keys()) # 获取预训练模型各层的名称
+        pre_ckpt['state_dict'][key_name[-2]] = checkpoint['state_dict'][key_name[-2]] # 类别不同,最后两层单独赋值
+        pre_ckpt['state_dict'][key_name[-1]] = checkpoint['state_dict'][key_name[-1]]
+        self.model.module.load_state_dict(pre_ckpt['state_dict'])     # , strict=False)
+        print(self.model.state_dict()[layer_name[3]])
         print("加载预训练模型ok")
 
     def training(self, epoch):
