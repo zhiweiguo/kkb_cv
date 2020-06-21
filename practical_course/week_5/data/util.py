@@ -1,6 +1,7 @@
 import os
 import random
 import numpy as np
+from PIL import Image
 
 def encode_segment_to_class_idx(segment_mask):
     """
@@ -57,6 +58,44 @@ def decode_class_idx_to_segment(label_mask):
     return segment_mask
    
 
+def crop_resize_datasets(in_dir='', out_dir=''):
+    base_img_dir_name = 'ColorImage'
+    base_label_dir_name = 'Label'
+
+    crop_h = 700
+    scale = 0.5
+    count = 1
+    for name1 in os.listdir(os.path.join(in_dir, base_img_dir_name)):
+        dir1 = os.path.join(in_dir, base_img_dir_name, name1)
+        for name2 in os.listdir(dir1):
+            dir2 = os.path.join(dir1, name2)
+            # 判断目标路径是否存在，若不存在，则创建目录
+            output_img_dir = os.path.join(out_dir, base_img_dir_name, name1, name2)
+            if not os.path.exists(output_img_dir):
+                os.makedirs(output_img_dir)
+            output_label_dir = os.path.join(out_dir, base_label_dir_name, name1, name2)
+            if not os.path.exists(output_label_dir):
+                os.makedirs(output_label_dir)
+            for f in os.listdir(dir2):
+                # img
+                img_path = os.path.join(dir2, f)
+                img = Image.open(img_path).convert('RGB')
+                w, h = img.size
+                img = img.crop((0, crop_h, w, h))  # left, upper, right, lower
+                ow, oh = int(scale * w), int(scale * h)
+                img = img.resize((ow, oh), Image.BILINEAR)
+                img.save(os.path.join(output_img_dir, f))
+                # label
+                name, ext = os.path.splitext(f)
+                label_path = os.path.join(in_dir, base_label_dir_name, name1, name2, name+'_bin.png')
+                label = Image.open(label_path)
+                label = label.crop((0, crop_h, w, h))
+                label = label.resize((ow, oh), Image.NEAREST)
+                label.save(os.path.join(output_label_dir, name + '_bin.png'))
+                print(count)
+                count +=1
+    return
+
 
 def get_train_val_file(data_root='D:\Data\LaneLine\Road02\ColorImage_road02', output_dir='./train_val/', rate = 0.9, shuffle=True):
     base_img_dir_name = os.path.join(data_root, 'ColorImage') 
@@ -103,5 +142,11 @@ def get_train_val_file(data_root='D:\Data\LaneLine\Road02\ColorImage_road02', ou
 
 
 if __name__ == "__main__":
-    data_root = '/home/aim/WorkSpace/dataset/LaneLine/Road02/ColorImage_road02'
-    get_train_val_file(data_root=data_root)
+    # 划分训练验证集
+    #data_root = '/home/aim/WorkSpace/dataset/LaneLine/Road02/ColorImage_road02'
+    #get_train_val_file(data_root=data_root)
+
+    # 裁剪和转存数据集
+    in_dir = 'D:\Data\LaneLine\Road04\ColorImage_road04'
+    out_dir = 'F:\WorkSpace\HuaweiCloud\Data\LaneLine\Road04'
+    crop_resize_datasets(in_dir=in_dir, out_dir=out_dir)
