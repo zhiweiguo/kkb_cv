@@ -1,0 +1,200 @@
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=True, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=6)
+Number of images in train: 19722
+Number of images in val: 2192
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0010,                 previous best = 0.0000
+[Epoch: 0, numImages: 19722]
+Loss: 6.965
+
+=>Epoches 1, learning rate = 0.0010,                 previous best = 0.0000
+[Epoch: 1, numImages: 19722]
+Loss: 4.788
+
+=>Epoches 2, learning rate = 0.0010,                 previous best = 0.0000
+[Epoch: 2, numImages: 19722]
+Loss: 4.601
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=True, out_stride=16, resume='./run/laneline/deeplab-mobilenet/experiment_3/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=6)
+Number of images in train: 19722
+Number of images in val: 2192
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-mobilenet/experiment_3/checkpoint.pth.tar' (epoch 3)
+Starting Epoch: 3
+Total Epoches: 40
+
+=>Epoches 3, learning rate = 0.0009,                 previous best = 0.0000
+[Epoch: 3, numImages: 19722]
+Loss: 4.475
+
+=>Epoches 4, learning rate = 0.0009,                 previous best = 0.0000
+[Epoch: 4, numImages: 19722]
+Loss: 4.426
+
+=>Epoches 5, learning rate = 0.0009,                 previous best = 0.0000
+[Epoch: 5, numImages: 19722]
+Loss: 4.349
+
+=>Epoches 6, learning rate = 0.0009,                 previous best = 0.0000
+[Epoch: 6, numImages: 19722]
+Loss: 4.289
+
+=>Epoches 7, learning rate = 0.0008,                 previous best = 0.0000
+[Epoch: 7, numImages: 19722]
+Loss: 4.233
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=True, out_stride=16, resume='./run/laneline/deeplab-mobilenet/experiment_3/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=6)
+Number of images in train: 19722
+Number of images in val: 2192
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-mobilenet/experiment_3/checkpoint.pth.tar' (epoch 3)
+Starting Epoch: 3
+Total Epoches: 40
+
+=>Epoches 3, learning rate = 0.0093,                 previous best = 0.0000
+[Epoch: 3, numImages: 19722]
+Loss: 4.237
+
+=>Epoches 4, learning rate = 0.0091,                 previous best = 0.0000
+[Epoch: 4, numImages: 19722]
+Loss: 4.017
+
+=>Epoches 5, learning rate = 0.0089,                 previous best = 0.0000
+[Epoch: 5, numImages: 19722]
+Loss: 3.892
+
+=>Epoches 6, learning rate = 0.0086,                 previous best = 0.0000
+[Epoch: 6, numImages: 19722]
+Loss: 3.875
+
+=>Epoches 7, learning rate = 0.0084,                 previous best = 0.0000
+[Epoch: 7, numImages: 19722]
+Loss: 4.815
+
+=>Epoches 8, learning rate = 0.0082,                 previous best = 0.0000
+[Epoch: 8, numImages: 19722]
+Loss: 3.927
+
+=>Epoches 9, learning rate = 0.0080,                 previous best = 0.0000
+[Epoch: 9, numImages: 19722]
+Loss: 3.819
+
+=>Epoches 10, learning rate = 0.0077,                 previous best = 0.0000
+[Epoch: 10, numImages: 19722]
+Loss: 3.712
+
+=>Epoches 11, learning rate = 0.0075,                 previous best = 0.0000
+[Epoch: 11, numImages: 19722]
+Loss: 3.592
+
+=>Epoches 12, learning rate = 0.0073,                 previous best = 0.0000
+[Epoch: 12, numImages: 19722]
+Loss: 3.523
+
+=>Epoches 13, learning rate = 0.0070,                 previous best = 0.0000
+[Epoch: 13, numImages: 19722]
+Loss: 3.431
+
+=>Epoches 14, learning rate = 0.0068,                 previous best = 0.0000
+[Epoch: 14, numImages: 19722]
+Loss: 3.363
+
+=>Epoches 15, learning rate = 0.0066,                 previous best = 0.0000
+[Epoch: 15, numImages: 19722]
+Loss: 3.304
+
+=>Epoches 16, learning rate = 0.0063,                 previous best = 0.0000
+[Epoch: 16, numImages: 19722]
+Loss: 3.308
+
+=>Epoches 17, learning rate = 0.0061,                 previous best = 0.0000
+[Epoch: 17, numImages: 19722]
+Loss: 3.310
+
+=>Epoches 18, learning rate = 0.0058,                 previous best = 0.0000
+[Epoch: 18, numImages: 19722]
+Loss: 3.299
+
+=>Epoches 19, learning rate = 0.0056,                 previous best = 0.0000
+[Epoch: 19, numImages: 19722]
+Loss: 3.221
+
+=>Epoches 20, learning rate = 0.0054,                 previous best = 0.0000
+[Epoch: 20, numImages: 19722]
+Loss: 3.193
+
+=>Epoches 21, learning rate = 0.0051,                 previous best = 0.0000
+[Epoch: 21, numImages: 19722]
+Loss: 3.244
+
+=>Epoches 22, learning rate = 0.0049,                 previous best = 0.0000
+[Epoch: 22, numImages: 19722]
+Loss: 3.182
+
+=>Epoches 23, learning rate = 0.0046,                 previous best = 0.0000
+[Epoch: 23, numImages: 19722]
+Loss: 3.146
+
+=>Epoches 24, learning rate = 0.0044,                 previous best = 0.0000
+[Epoch: 24, numImages: 19722]
+Loss: 3.150
+
+=>Epoches 25, learning rate = 0.0041,                 previous best = 0.0000
+[Epoch: 25, numImages: 19722]
+Loss: 3.112
+
+=>Epoches 26, learning rate = 0.0039,                 previous best = 0.0000
+[Epoch: 26, numImages: 19722]
+Loss: 3.078
+
+=>Epoches 27, learning rate = 0.0036,                 previous best = 0.0000
+[Epoch: 27, numImages: 19722]
+Loss: 3.002
+
+=>Epoches 28, learning rate = 0.0034,                 previous best = 0.0000
+[Epoch: 28, numImages: 19722]
+Loss: 2.981
+
+=>Epoches 29, learning rate = 0.0031,                 previous best = 0.0000
+[Epoch: 29, numImages: 19722]
+Loss: 2.985
+
+=>Epoches 30, learning rate = 0.0029,                 previous best = 0.0000
+[Epoch: 30, numImages: 19722]
+Loss: 2.940
+
+=>Epoches 31, learning rate = 0.0026,                 previous best = 0.0000
+[Epoch: 31, numImages: 19722]
+Loss: 2.894
+
+=>Epoches 32, learning rate = 0.0023,                 previous best = 0.0000
+[Epoch: 32, numImages: 19722]
+Loss: 2.864
+
+=>Epoches 33, learning rate = 0.0021,                 previous best = 0.0000
+[Epoch: 33, numImages: 19722]
+Loss: 2.829
+
+=>Epoches 34, learning rate = 0.0018,                 previous best = 0.0000
+[Epoch: 34, numImages: 19722]
+Loss: 2.818
+
+=>Epoches 35, learning rate = 0.0015,                 previous best = 0.0000
+[Epoch: 35, numImages: 19722]
+Loss: 2.785
+
+=>Epoches 36, learning rate = 0.0013,                 previous best = 0.0000
+[Epoch: 36, numImages: 19722]
+Loss: 2.790
+
+=>Epoches 37, learning rate = 0.0010,                 previous best = 0.0000
+[Epoch: 37, numImages: 19722]
+Loss: 2.744
+
+=>Epoches 38, learning rate = 0.0007,                 previous best = 0.0000
+[Epoch: 38, numImages: 19722]
+Loss: 2.698
+
+=>Epoches 39, learning rate = 0.0004,                 previous best = 0.0000
+[Epoch: 39, numImages: 19722]
+Loss: 2.704

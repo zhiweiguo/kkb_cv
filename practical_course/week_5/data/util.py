@@ -97,7 +97,20 @@ def crop_resize_datasets(in_dir='', out_dir=''):
     return
 
 
-def get_train_val_file(data_root='D:\Data\LaneLine\Road02\ColorImage_road02', output_dir='./train_val/', rate = 0.9, shuffle=True):
+def get_train_val_file(data_root='D:\Data\LaneLine', output_dir='./train_val/', rate = 0.9, shuffle=True):
+    img_dir_name = 'ColorImage'
+    label_dir_name = 'Label'
+    imgs_list = []
+    labels_list = []
+    for Road_name in os.listdir(data_root):
+        for Record_name in os.listdir(os.path.join(data_root, Road_name, img_dir_name)):
+            for Camera_name in os.listdir(os.path.join(data_root, Road_name, img_dir_name, Record_name)):
+                for img_name in os.listdir(os.path.join(data_root, Road_name, img_dir_name, Record_name, Camera_name)):
+                    name, ext = os.path.splitext(img_name)
+                    imgs_list.append(os.path.join(data_root, Road_name, img_dir_name, Record_name, Camera_name, img_name))
+                    labels_list.append(os.path.join(data_root, Road_name, label_dir_name, Record_name, Camera_name, name+'_bin.png')) 
+    '''
+    # 第一版
     base_img_dir_name = os.path.join(data_root, 'ColorImage') 
     base_label_dir_name = os.path.join(data_root, 'Label')
     imgs_list = []
@@ -110,7 +123,7 @@ def get_train_val_file(data_root='D:\Data\LaneLine\Road02\ColorImage_road02', ou
                 name, ext = os.path.splitext(img)
                 imgs_list.append(os.path.join(base_img_dir_name, name1, name2, img))
                 labels_list.append(os.path.join(base_label_dir_name, name1, name2, name+'_bin.png'))
-    
+    '''
     assert (len(imgs_list) == len(labels_list))
     total_num = len(imgs_list)
     idx = list(range(total_num))
@@ -143,10 +156,10 @@ def get_train_val_file(data_root='D:\Data\LaneLine\Road02\ColorImage_road02', ou
 
 if __name__ == "__main__":
     # 划分训练验证集
-    #data_root = '/home/aim/WorkSpace/dataset/LaneLine/Road02/ColorImage_road02'
-    #get_train_val_file(data_root=data_root)
+    data_root = '/home/aim/WorkSpace/dataset/LaneLine/'
+    get_train_val_file(data_root=data_root, rate = 0.95)
 
     # 裁剪和转存数据集
-    in_dir = 'D:\Data\LaneLine\Road04\ColorImage_road04'
-    out_dir = 'F:\WorkSpace\HuaweiCloud\Data\LaneLine\Road04'
-    crop_resize_datasets(in_dir=in_dir, out_dir=out_dir)
+    #in_dir = 'D:\Data\LaneLine\Road04\ColorImage_road04'
+    #out_dir = 'F:\WorkSpace\HuaweiCloud\Data\LaneLine\Road04'
+    #crop_resize_datasets(in_dir=in_dir, out_dir=out_dir)

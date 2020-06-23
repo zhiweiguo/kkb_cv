@@ -38,7 +38,7 @@ def dice_loss(input,target):
     return dice_total
 
 # diceloss版本2:
-class SoftDiceLoss(nn.module):
+class SoftDiceLoss(nn.Module):
     def __init__(self, weight=None, size_average=True):
         super(SoftDiceLoss, self).__init__()
 
@@ -117,6 +117,8 @@ class SegmentationLosses(object):
             return self.CrossEntropyLoss
         elif mode == 'dice':
             return self.DiceLossFun
+        elif mode == 'focal':
+            return self.FocalLoss
         else:
             raise NotImplementedError
 
@@ -131,6 +133,24 @@ class SegmentationLosses(object):
             criterion = criterion.cuda()
 
         loss = criterion(logit, target.long())
+
+        if self.batch_average:
+            loss /= n
+
+        return loss
+
+    def FocalLoss(self, logit, target, gamma=2, alpha=0.5):
+        n, c, h, w = logit.size()
+        criterion = nn.CrossEntropyLoss(weight=self.weight, ignore_index=self.ignore_index,
+                                        size_average=self.size_average)
+        if self.cuda:
+            criterion = criterion.cuda()
+
+        logpt = -criterion(logit, target.long())
+        pt = torch.exp(logpt)
+        if alpha is not None:
+            logpt *= alpha
+        loss = -((1 - pt) ** gamma) * logpt
 
         if self.batch_average:
             loss /= n

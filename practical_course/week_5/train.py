@@ -34,19 +34,23 @@ class Trainer(object):
                         backbone=args.backbone,
                         output_stride=args.out_stride,
                         freeze_bn=args.freeze_bn)
-
+        self.model = model
         train_params = [{'params': model.get_1x_lr_params(), 'lr': args.lr},
                         {'params': model.get_10x_lr_params(), 'lr': args.lr * 10}]
 
         # Define Optimizer
-        optimizer = torch.optim.SGD(train_params, momentum=args.momentum,
-                                    weight_decay=args.weight_decay, nesterov=args.nesterov)
+        #optimizer = torch.optim.SGD(train_params, momentum=args.momentum,
+        #                            weight_decay=args.weight_decay, nesterov=args.nesterov)
 
+        # adam
+        optimizer = torch.optim.Adam(params=self.model.parameters(),betas=(0.9, 0.999),
+                                    eps=1e-08, weight_decay=0, amsgrad=False)
 
-        weight = None 
+        weight = [1, 10, 10, 10, 10, 10, 10, 10]
+        weight = torch.tensor(weight, dtype=torch.float) 
         self.criterion = SegmentationLosses(weight=weight, cuda=args.cuda, num_classes=self.nclass).build_loss(mode=args.loss_type)
         self.model, self.optimizer = model, optimizer
-        
+
         # Define Evaluator
         self.evaluator = Evaluator(self.nclass)
         # Define lr scheduler
@@ -80,9 +84,10 @@ class Trainer(object):
         if args.ft:
             args.start_epoch = 0
 
+        '''
         # 获取当前模型各层的名称
         layer_name = list(self.model.state_dict().keys())
-        print(self.model.state_dict()[layer_name[3]])
+        #print(self.model.state_dict()[layer_name[3]])
         # 加载通用的预训练模型
         pretrained = './pretrained_model/deeplab-mobilenet.pth.tar'
         pre_ckpt = torch.load(pretrained)
@@ -90,9 +95,9 @@ class Trainer(object):
         pre_ckpt['state_dict'][key_name[-2]] = checkpoint['state_dict'][key_name[-2]] # 类别不同,最后两层单独赋值
         pre_ckpt['state_dict'][key_name[-1]] = checkpoint['state_dict'][key_name[-1]]
         self.model.module.load_state_dict(pre_ckpt['state_dict'])     # , strict=False)
-        print(self.model.state_dict()[layer_name[3]])
+        #print(self.model.state_dict()[layer_name[3]])
         print("加载预训练模型ok")
-
+        '''
     def training(self, epoch):
         train_loss = 0.0
         self.model.train()
@@ -111,6 +116,8 @@ class Trainer(object):
             loss.backward()
             self.optimizer.step()
             train_loss += loss.item()
+            #if (i+1) % 50 == 0:
+            #    print('Train loss: %.3f' % (loss.item() / (i + 1)))
             tbar.set_description('Train loss: %.3f' % (train_loss / (i + 1)))
             self.writer.add_scalar('train/total_loss_iter', loss.item(), i + num_img_tr * epoch)
 
@@ -123,6 +130,7 @@ class Trainer(object):
         print('[Epoch: %d, numImages: %5d]' % (epoch, i * self.args.batch_size + image.data.shape[0]))
         print('Loss: %.3f' % train_loss)
 
+        filename='checkpoint_{}_{:.4f}.pth.tar'.format(epoch, train_loss)
         if self.args.no_val:
             # save checkpoint every epoch
             is_best = False
@@ -131,7 +139,7 @@ class Trainer(object):
                 'state_dict': self.model.module.state_dict(),
                 'optimizer': self.optimizer.state_dict(),
                 'best_pred': self.best_pred,
-            }, is_best)
+            }, is_best, filename=filename)
 
 
     def validation(self, epoch):
@@ -146,6 +154,8 @@ class Trainer(object):
             with torch.no_grad():
                 output = self.model(image)
             loss = self.criterion(output, target)
+            #if (i+1) %20 == 0:
+            #    print('Test loss: %.3f' % (loss / (i + 1)))
             test_loss += loss.item()
             tbar.set_description('Test loss: %.3f' % (test_loss / (i + 1)))
             pred = output.data.cpu().numpy()
@@ -203,7 +213,7 @@ def main():
     parser.add_argument('--freeze-bn', type=bool, default=False,
                         help='whether to freeze bn parameters (default: False)')
     parser.add_argument('--loss-type', type=str, default='ce',
-                        choices=['ce', 'dice'],
+                        choices=['ce', 'dice', 'focal'],
                         help='loss func type (default: ce)')
     # training hyper params
     parser.add_argument('--epochs', type=int, default=None, metavar='N',

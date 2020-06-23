@@ -68,10 +68,10 @@ class LaneLine(Dataset):
         _img = Image.open(self.imgs[index]).convert('RGB')
         _tmp = Image.open(self.labels[index])
         # 裁剪掉图片上部没有车道线的区域
-        w, h = _img.size
-        crop_h = 700
-        _img = _img.crop((0, crop_h, w, h))      # left, upper, right, lower
-        _tmp = _tmp.crop((0, crop_h, w, h))
+        #w, h = _img.size
+        #crop_h = 700
+        #_img = _img.crop((0, crop_h, w, h))      # left, upper, right, lower
+        #_tmp = _tmp.crop((0, crop_h, w, h))
 
         _tmp = util.encode_segment_to_class_idx(np.array(_tmp))
         _target = Image.fromarray(_tmp)
@@ -81,10 +81,10 @@ class LaneLine(Dataset):
 
     def transform_tr(self, sample):
         composed_transforms = transforms.Compose([
-            #tr.RandomHorizontalFlip(),
-            #tr.RandomScaleCrop(base_size=self.args.base_size, crop_size=self.args.crop_size), # 原始实现
-            tr.RandomCrop(crop_size=self.args.crop_size),     # 自己优化
-            #tr.RandomGaussianBlur(),
+            tr.RandomHorizontalFlip(),
+            tr.RandomScaleCrop(base_size=self.args.base_size, crop_size=self.args.crop_size), # 原始实现
+            #tr.RandomCrop(crop_size=self.args.crop_size),     # 自己优化
+            tr.RandomGaussianBlur(),
             tr.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
             tr.ToTensor()])
 
@@ -93,8 +93,8 @@ class LaneLine(Dataset):
     def transform_val(self, sample):
 
         composed_transforms = transforms.Compose([
-            #tr.FixScaleCrop(crop_size=self.args.crop_size), # 原始方式
-            tr.RandomCrop(crop_size=self.args.crop_size), # 自己优化
+            tr.FixScaleCrop(crop_size=self.args.crop_size), # 原始方式
+            #tr.RandomCrop(crop_size=self.args.crop_size), # 自己优化
             tr.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
             tr.ToTensor()])
 
@@ -107,7 +107,7 @@ class LaneLine(Dataset):
 if __name__ == "__main__":
     import pdb
     pdb.set_trace()
-    base_dir = '/home/aim/WorkSpace/my_workspace/week_4/data/train_val'
+    base_dir = '/home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_5/data/train_val'
     train_dataset = LaneLine(None, base_dir=base_dir, split='train') 
     data = train_dataset.__getitem__(0)
     print(train_dataset.imgs)
