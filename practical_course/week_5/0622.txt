@@ -1,0 +1,238 @@
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=True, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=6)
+Number of images in train: 19722
+Number of images in val: 2192
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0100,                 previous best = 0.0000
+[Epoch: 0, numImages: 19722]
+Loss: 4.864
+
+=>Epoches 1, learning rate = 0.0098,                 previous best = 0.0000
+[Epoch: 1, numImages: 19722]
+Loss: 4.022
+
+=>Epoches 2, learning rate = 0.0095,                 previous best = 0.0000
+[Epoch: 2, numImages: 19722]
+Loss: 3.854
+
+=>Epoches 3, learning rate = 0.0093,                 previous best = 0.0000
+[Epoch: 3, numImages: 19722]
+Loss: 3.834
+
+=>Epoches 4, learning rate = 0.0091,                 previous best = 0.0000
+[Epoch: 4, numImages: 19722]
+Loss: 4.702
+
+=>Epoches 5, learning rate = 0.0089,                 previous best = 0.0000
+[Epoch: 5, numImages: 19722]
+Loss: 3.876
+
+=>Epoches 6, learning rate = 0.0086,                 previous best = 0.0000
+[Epoch: 6, numImages: 19722]
+Loss: 3.741
+
+=>Epoches 7, learning rate = 0.0084,                 previous best = 0.0000
+[Epoch: 7, numImages: 19722]
+Loss: 3.578
+
+=>Epoches 8, learning rate = 0.0082,                 previous best = 0.0000
+[Epoch: 8, numImages: 19722]
+Loss: 3.507
+
+=>Epoches 9, learning rate = 0.0080,                 previous best = 0.0000
+[Epoch: 9, numImages: 19722]
+Loss: 3.443
+
+=>Epoches 10, learning rate = 0.0077,                 previous best = 0.0000
+[Epoch: 10, numImages: 19722]
+Loss: 3.369
+
+=>Epoches 11, learning rate = 0.0075,                 previous best = 0.0000
+[Epoch: 11, numImages: 19722]
+Loss: 3.280
+
+=>Epoches 12, learning rate = 0.0073,                 previous best = 0.0000
+[Epoch: 12, numImages: 19722]
+Loss: 3.243
+
+=>Epoches 13, learning rate = 0.0070,                 previous best = 0.0000
+[Epoch: 13, numImages: 19722]
+Loss: 3.173
+
+=>Epoches 14, learning rate = 0.0068,                 previous best = 0.0000
+[Epoch: 14, numImages: 19722]
+Loss: 3.169
+
+=>Epoches 15, learning rate = 0.0066,                 previous best = 0.0000
+[Epoch: 15, numImages: 19722]
+Loss: 3.140
+
+=>Epoches 16, learning rate = 0.0063,                 previous best = 0.0000
+[Epoch: 16, numImages: 19722]
+Loss: 3.080
+
+=>Epoches 17, learning rate = 0.0061,                 previous best = 0.0000
+[Epoch: 17, numImages: 19722]
+Loss: 3.150
+
+=>Epoches 18, learning rate = 0.0058,                 previous best = 0.0000
+[Epoch: 18, numImages: 19722]
+Loss: 3.077
+
+=>Epoches 19, learning rate = 0.0056,                 previous best = 0.0000
+[Epoch: 19, numImages: 19722]
+Loss: 3.045
+
+=>Epoches 20, learning rate = 0.0054,                 previous best = 0.0000
+[Epoch: 20, numImages: 19722]
+Loss: 3.023
+
+=>Epoches 21, learning rate = 0.0051,                 previous best = 0.0000
+[Epoch: 21, numImages: 19722]
+Loss: 2.999
+
+=>Epoches 22, learning rate = 0.0049,                 previous best = 0.0000
+[Epoch: 22, numImages: 19722]
+Loss: 2.940
+
+=>Epoches 23, learning rate = 0.0046,                 previous best = 0.0000
+[Epoch: 23, numImages: 19722]
+Loss: 2.941
+
+=>Epoches 24, learning rate = 0.0044,                 previous best = 0.0000
+[Epoch: 24, numImages: 19722]
+Loss: 2.929
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.1, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=6)
+Number of images in train: 19722
+Number of images in val: 2192
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.1000,                 previous best = 0.0000
+[Epoch: 0, numImages: 19722]
+Loss: 4.349
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0100,                 previous best = 0.0000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 0, numImages: 20818]
+Loss: 4.493
+Test loss: 0.000
+Validation:
+[Epoch: 0, numImages:  1096]
+Acc:0.9663822257868601, Acc_class:0.12787896702816087, mIoU:0.12359401801162066, fwIoU: 0.9348750508489511
+Loss: 0.308
+
+=>Epoches 1, learning rate = 0.0098,                 previous best = 0.1236
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 1, numImages: 20818]
+Loss: 3.701
+Test loss: 0.000
+Validation:
+[Epoch: 1, numImages:  1096]
+Acc:0.9669286087513969, Acc_class:0.13203023234638642, mIoU:0.12749755122506323, fwIoU: 0.9359417663372845
+Loss: 0.248
+
+=>Epoches 2, learning rate = 0.0095,                 previous best = 0.1275
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 2, numImages: 20818]
+Loss: 3.610
+Test loss: 0.000
+Validation:
+[Epoch: 2, numImages:  1096]
+Acc:0.967353996639444, Acc_class:0.1311399165150823, mIoU:0.1268674100777188, fwIoU: 0.936321224784738
+Loss: 0.250
+
+=>Epoches 3, learning rate = 0.0093,                 previous best = 0.1275
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 3, numImages: 20818]
+Loss: 3.945
+Test loss: 0.000
+Validation:
+[Epoch: 3, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.296
+
+=>Epoches 4, learning rate = 0.0091,                 previous best = 0.1275
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 4, numImages: 20818]
+Loss: 4.076
+Test loss: 0.000
+Validation:
+[Epoch: 4, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.198

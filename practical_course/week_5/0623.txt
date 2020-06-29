@@ -1,0 +1,543 @@
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.01, lr_scheduler='step', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using step LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0100,                 previous best = 0.0000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 0, numImages: 20818]
+Loss: 4.490
+Test loss: 0.000
+Validation:
+[Epoch: 0, numImages:  1096]
+Acc:0.966280895573944, Acc_class:0.12905713708748406, mIoU:0.12463655727183691, fwIoU: 0.9349168464813169
+Loss: 0.309
+
+=>Epoches 1, learning rate = 0.0100,                 previous best = 0.1246
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 1, numImages: 20818]
+Loss: 3.689
+Test loss: 0.000
+Validation:
+[Epoch: 1, numImages:  1096]
+Acc:0.967002833903767, Acc_class:0.13313465554648363, mIoU:0.12849792435685473, fwIoU: 0.9361441298084894
+Loss: 0.244
+
+=>Epoches 2, learning rate = 0.0100,                 previous best = 0.1285
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 2, numImages: 20818]
+Loss: 3.598
+Test loss: 0.000
+Validation:
+[Epoch: 2, numImages:  1096]
+Acc:0.9674880866012856, Acc_class:0.13298680527676476, mIoU:0.12859752885433628, fwIoU: 0.9366868448534807
+Loss: 0.276
+
+=>Epoches 3, learning rate = 0.0100,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 3, numImages: 20818]
+Loss: 4.175
+Test loss: 0.000
+Validation:
+[Epoch: 3, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.244
+
+=>Epoches 4, learning rate = 0.0100,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 4, numImages: 20818]
+Loss: 4.375
+Test loss: 0.000
+Validation:
+[Epoch: 4, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.238
+
+=>Epoches 5, learning rate = 0.0100,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 5, numImages: 20818]
+Loss: 4.313
+Test loss: 0.000
+Validation:
+[Epoch: 5, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.237
+
+=>Epoches 6, learning rate = 0.0100,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 6, numImages: 20818]
+Loss: 4.293
+Test loss: 0.000
+Validation:
+[Epoch: 6, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.236
+
+=>Epoches 7, learning rate = 0.0100,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 7, numImages: 20818]
+Loss: 3.900
+Test loss: 0.000
+Validation:
+[Epoch: 7, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.188
+
+=>Epoches 8, learning rate = 0.0100,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 8, numImages: 20818]
+Loss: 3.416
+Test loss: 0.000
+Validation:
+[Epoch: 8, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.177
+
+=>Epoches 9, learning rate = 0.0100,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 9, numImages: 20818]
+Loss: 3.343
+Test loss: 0.000
+Validation:
+[Epoch: 9, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.172
+
+=>Epoches 10, learning rate = 0.0010,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 10, numImages: 20818]
+Loss: 3.208
+Test loss: 0.000
+Validation:
+[Epoch: 10, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.167
+
+=>Epoches 11, learning rate = 0.0010,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 11, numImages: 20818]
+Loss: 3.128
+Test loss: 0.000
+Validation:
+[Epoch: 11, numImages:  1096]
+Acc:0.9670371468718181, Acc_class:0.12500955186877005, mIoU:0.12088919098500729, fwIoU: 0.9351608445488088
+Loss: 0.167
+
+=>Epoches 12, learning rate = 0.0010,                 previous best = 0.1286
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 12, numImages: 20818]
+Loss: 3.130
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.1, lr_scheduler='step', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using step LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.1000,                 previous best = 0.0000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 0, numImages: 20818]
+Loss: 4.572
+Test loss: 0.000
+Validation:
+[Epoch: 0, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.236
+
+=>Epoches 1, learning rate = 0.1000,                 previous best = 0.1209
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 1, numImages: 20818]
+Loss: 4.296
+Test loss: 0.000
+Validation:
+[Epoch: 1, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.237
+
+=>Epoches 2, learning rate = 0.1000,                 previous best = 0.1209
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 2, numImages: 20818]
+Loss: 4.302
+Test loss: 0.000
+Validation:
+[Epoch: 2, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.238
+
+=>Epoches 3, learning rate = 0.1000,                 previous best = 0.1209
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 3, numImages: 20818]
+Loss: 4.302
+Test loss: 0.000
+Validation:
+[Epoch: 3, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.237
+Namespace(backbone='mobilenet', base_size=780, batch_size=32, checkname='deeplab-mobilenet', crop_size=780, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='focal', lr=0.01, lr_scheduler='step', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=12)
+Number of images in train: 20818
+Number of images in val: 1096
+Using step LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0100,                 previous best = 0.0000
+Namespace(backbone='mobilenet', base_size=780, batch_size=32, checkname='deeplab-mobilenet', crop_size=780, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='focal', lr=0.01, lr_scheduler='step', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using step LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0100,                 previous best = 0.0000
+Namespace(backbone='mobilenet', base_size=513, batch_size=32, checkname='deeplab-mobilenet', crop_size=513, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='focal', lr=0.01, lr_scheduler='step', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using step LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0100,                 previous best = 0.0000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 0, numImages: 20818]
+Loss: 0.319
+Test loss: 0.000
+Validation:
+[Epoch: 0, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.012
+
+=>Epoches 1, learning rate = 0.0100,                 previous best = 0.1209
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 1, numImages: 20818]
+Loss: 0.148
+Test loss: 0.000
+Validation:
+[Epoch: 1, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.008
+
+=>Epoches 2, learning rate = 0.0100,                 previous best = 0.1209
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 2, numImages: 20818]
+Loss: 0.196
+Test loss: 0.000
+Validation:
+[Epoch: 2, numImages:  1096]
+Acc:0.9670361171707459, Acc_class:0.125, mIoU:0.12087951464634324, fwIoU: 0.9351588519126726
+Loss: 0.040
+
+=>Epoches 3, learning rate = 0.0100,                 previous best = 0.1209
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+Train loss: 0.000
+[Epoch: 3, numImages: 20818]
+Loss: 0.645
+Namespace(backbone='mobilenet', base_size=512, batch_size=32, checkname='deeplab-mobilenet', crop_size=512, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Namespace(backbone='mobilenet', base_size=512, batch_size=32, checkname='deeplab-mobilenet', crop_size=512, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Namespace(backbone='mobilenet', base_size=512, batch_size=32, checkname='deeplab-mobilenet', crop_size=512, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Namespace(backbone='mobilenet', base_size=512, batch_size=32, checkname='deeplab-mobilenet', crop_size=512, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+Namespace(backbone='mobilenet', base_size=512, batch_size=32, checkname='deeplab-mobilenet', crop_size=512, cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=32, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0010,                 previous best = 0.0000
+[Epoch: 0, numImages: 20818]
+Loss: 10.109
+Validation:
+[Epoch: 0, numImages:  1096]
+Acc:0.9528793453300086, Acc_class:0.6040508099586083, mIoU:0.34116649433656865, fwIoU: 0.9338708213364098
+Loss: 0.362
+
+=>Epoches 1, learning rate = 0.0010,                 previous best = 0.3412
+[Epoch: 1, numImages: 20818]
+Loss: 5.810
+Validation:
+[Epoch: 1, numImages:  1096]
+Acc:0.9652022862956472, Acc_class:0.6587942880841745, mIoU:0.4248700891302497, fwIoU: 0.947631895655685
+Loss: 0.289
+
+=>Epoches 2, learning rate = 0.0010,                 previous best = 0.4249
+[Epoch: 2, numImages: 20818]
+Loss: 4.701
+Validation:
+[Epoch: 2, numImages:  1096]
+Acc:0.9710939887666354, Acc_class:0.692648684239928, mIoU:0.45760225808104676, fwIoU: 0.954540216123822
+Loss: 0.263
+
+=>Epoches 3, learning rate = 0.0009,                 previous best = 0.4576
+[Epoch: 3, numImages: 20818]
+Loss: 4.320
+Validation:
+[Epoch: 3, numImages:  1096]
+Acc:0.9703065113429605, Acc_class:0.6799001862671854, mIoU:0.45041033037028144, fwIoU: 0.953672793363709
+Loss: 0.257
+
+=>Epoches 4, learning rate = 0.0009,                 previous best = 0.4576
+[Epoch: 4, numImages: 20818]
+Loss: 3.982
