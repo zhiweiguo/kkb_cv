@@ -1,0 +1,3 @@
+data.py      # 读取mnist数据
+homework.ipynb       #结果展示文件
+week7_homework_mnist_alexnet.py   # 老师提供的用于填空的文件
