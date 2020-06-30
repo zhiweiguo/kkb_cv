@@ -1,0 +1,7 @@
+代码说明：
+myresnet.py：
+实现了与resnet相关的所有功能代码，主要包括，SE module, 带SE功能的block,带SE功能的resnet, 其中resnet可以按需创建resnet或resnext
+封装了可统一调用了get_resnet()和get_resnext()两个接口，通过两个接口，可以创建带SE或不带SE的不同规格网络结构的模型
+
+inference.ipynb:
+对创建的resnet，resnext以及SE-resnext模型的正确性验证
