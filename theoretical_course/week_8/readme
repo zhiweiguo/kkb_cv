@@ -1,0 +1,4 @@
+说明:
+
+homework8.ipynb  # 模型训练，不同optim对比，loss对比展示，准确率效果展示等
+loss.jpg         # loss变化曲线
