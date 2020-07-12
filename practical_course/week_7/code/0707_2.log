@@ -1,0 +1,444 @@
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=4, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=8, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) > /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=16, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=16, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=16, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=16, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0010,                 previous best = 0.0000
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=8, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=8, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0010,                 previous best = 0.0000
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=4, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=6, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=4, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0004, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=4, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0004, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+> /home/aim/WorkSpace/my_workspace/kkb_cv/practical_course/week_7/train.py(268)main()
+-> args = parser.parse_args()
+(Pdb) Namespace(backbone='xception', base_size='637,1128', batch_size=4, checkname='deeplab-xception', crop_size='637,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0004, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0004,                 previous best = 0.0000
+[Epoch: 0, numImages: 20818]
+Loss: 549.448
+Validation:
+[Epoch: 0, numImages:  1096]
+Acc:0.9627050075319411, Acc_class:0.7507511115989567, mIoU:0.4111541269511587, fwIoU: 0.9460831587052382
+Loss: 14.836
+
+=>Epoches 1, learning rate = 0.0004,                 previous best = 0.4112
+[Epoch: 1, numImages: 20818]
+Loss: 224.131
+Validation:
+[Epoch: 1, numImages:  1096]
+Acc:0.9707037165756909, Acc_class:0.8133904134781125, mIoU:0.487350908137442, fwIoU: 0.9554416255936826
+Loss: 10.667
+
+=>Epoches 2, learning rate = 0.0004,                 previous best = 0.4874
+[Epoch: 2, numImages: 20818]
+Loss: 162.821
+Validation:
+[Epoch: 2, numImages:  1096]
+Acc:0.9738109076553794, Acc_class:0.8099887543871069, mIoU:0.5207233283059021, fwIoU: 0.959350695590524
+Loss: 10.349
+
+=>Epoches 3, learning rate = 0.0004,                 previous best = 0.5207
+[Epoch: 3, numImages: 20818]
+Loss: 228.596
+Validation:
+[Epoch: 3, numImages:  1096]
+Acc:0.8817637440756464, Acc_class:0.5559223570687649, mIoU:0.30128369335535393, fwIoU: 0.8653216485691283
+Loss: 33.979
+Namespace(backbone='xception', base_size='570,1128', batch_size=4, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/model_best.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/model_best.pth.tar' (epoch 3)
+Starting Epoch: 3
+Total Epoches: 40
+
+=>Epoches 3, learning rate = 0.0001,                 previous best = 0.5207
+[Epoch: 3, numImages: 20818]
+Loss: 120.514
+Validation:
+[Epoch: 3, numImages:  1096]
+Acc:0.9745357154047567, Acc_class:0.8533231457764396, mIoU:0.5243193309541241, fwIoU: 0.960447488755099
+Loss: 9.173
+
+=>Epoches 4, learning rate = 0.0001,                 previous best = 0.5243
+[Epoch: 4, numImages: 20818]
+Loss: 104.781
+Validation:
+[Epoch: 4, numImages:  1096]
+Acc:0.977467756618795, Acc_class:0.862918712273199, mIoU:0.5481978035728317, fwIoU: 0.9641735180815704
+Loss: 8.700
+
+=>Epoches 5, learning rate = 0.0001,                 previous best = 0.5482
+[Epoch: 5, numImages: 20818]
+Loss: 94.801
+Validation:
+[Epoch: 5, numImages:  1096]
+Acc:0.9767333850671484, Acc_class:0.871960743371035, mIoU:0.5420161632633296, fwIoU: 0.9632121477772515
+Loss: 8.598
+
+=>Epoches 6, learning rate = 0.0001,                 previous best = 0.5482
+[Epoch: 6, numImages: 20818]
+Loss: 88.091
+Validation:
+[Epoch: 6, numImages:  1096]
+Acc:0.9772226680957324, Acc_class:0.8742840905364117, mIoU:0.5464108806329369, fwIoU: 0.9638510931151709
+Loss: 8.872
+
+=>Epoches 7, learning rate = 0.0001,                 previous best = 0.5482
+[Epoch: 7, numImages: 20818]
+Loss: 82.909
+Validation:
+[Epoch: 7, numImages:  1096]
+Acc:0.9786288682861837, Acc_class:0.8765752124720232, mIoU:0.5556920349658316, fwIoU: 0.965782113085507
+Loss: 8.206
+
+=>Epoches 8, learning rate = 0.0001,                 previous best = 0.5557
+[Epoch: 8, numImages: 20818]
+Loss: 78.511
+Namespace(backbone='xception', base_size='285,564', batch_size=4, checkname='deeplab-xception', crop_size='285,564', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar' (epoch 8)
+Starting Epoch: 8
+Total Epoches: 40
+
+=>Epoches 8, learning rate = 0.0001,                 previous best = 0.5557
+[Epoch: 8, numImages: 20818]
+Loss: 299.812
+Validation:
+[Epoch: 8, numImages:  1096]
+Acc:0.9474994471282, Acc_class:0.6751359272355634, mIoU:0.31957515518500845, fwIoU: 0.9289341855642913
+Loss: 6923.403
+
+=>Epoches 9, learning rate = 0.0001,                 previous best = 0.5557
+[Epoch: 9, numImages: 20818]
+Loss: 254.660
+Validation:
+[Epoch: 9, numImages:  1096]
+Acc:0.9435021442797863, Acc_class:0.6821574163443342, mIoU:0.3135656690710789, fwIoU: 0.9246059206665799
+Loss: 196.760
+Namespace(backbone='xception', base_size='570,1128', batch_size=4, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0002, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar' (epoch 8)
+Starting Epoch: 8
+Total Epoches: 40
+
+=>Epoches 8, learning rate = 0.0002,                 previous best = 0.5557
+Namespace(backbone='xception', base_size='570,1128', batch_size=3, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=True, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0002, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar' (epoch 8)
+Starting Epoch: 8
+Total Epoches: 40
+
+=>Epoches 8, learning rate = 0.0002,                 previous best = 0.5557
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=True, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0002, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar' (epoch 8)
+Starting Epoch: 8
+Total Epoches: 40
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0002, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar' (epoch 8)
+Starting Epoch: 8
+Total Epoches: 40
+
+=>Epoches 8, learning rate = 0.0002,                 previous best = 0.5557
+[Epoch: 8, numImages: 20818]
+Loss: 768.132
+Validation:
+[Epoch: 8, numImages:  1096]
+Acc:0.9647246008765118, Acc_class:0.7526708808349791, mIoU:0.4159901786132273, fwIoU: 0.948626820440367
+Loss: 67.544
+
+=>Epoches 9, learning rate = 0.0002,                 previous best = 0.5557
+[Epoch: 9, numImages: 20818]
+Loss: 924.066
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=True, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 20818
+Number of images in val: 1096
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar' (epoch 8)
+Starting Epoch: 8
+Total Epoches: 40
+
+=>Epoches 8, learning rate = 0.0001,                 previous best = 0.5557
+[Epoch: 8, numImages: 20818]
+Loss: 358.504
+Validation:
+[Epoch: 8, numImages:  1096]
+Acc:0.976471318725257, Acc_class:0.8699441721879274, mIoU:0.5377739281879503, fwIoU: 0.962879542586702
+Loss: 36.347
+
+=>Epoches 9, learning rate = 0.0001,                 previous best = 0.5557
+[Epoch: 9, numImages: 20818]
+Loss: 330.123
+Validation:
+[Epoch: 9, numImages:  1096]
+Acc:0.9776488022662522, Acc_class:0.8732852481798352, mIoU:0.5508799237202608, fwIoU: 0.9644339974177704
+Loss: 35.312
+
+=>Epoches 10, learning rate = 0.0001,                 previous best = 0.5557
+[Epoch: 10, numImages: 20818]
+Loss: 314.566
+Validation:
+[Epoch: 10, numImages:  1096]
+Acc:0.9801528943122547, Acc_class:0.8670130707750902, mIoU:0.5721718969560196, fwIoU: 0.9676008940943325
+Loss: 38.158
+
+=>Epoches 11, learning rate = 0.0001,                 previous best = 0.5722
+[Epoch: 11, numImages: 20818]
+Loss: 303.778
+Validation:
+[Epoch: 11, numImages:  1096]
+Acc:0.9802871530417259, Acc_class:0.8609012580500508, mIoU:0.5766407505994716, fwIoU: 0.9677648774534879
+Loss: 40.807
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=True, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 13550
+Number of images in val: 714
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/experiment_10/checkpoint.pth.tar' (epoch 12)
+Starting Epoch: 12
+Total Epoches: 40
+
+=>Epoches 12, learning rate = 0.0001,                 previous best = 0.5766
+[Epoch: 12, numImages: 13550]
+Loss: 193.762
+Validation:
+[Epoch: 12, numImages:   714]
+Acc:0.978933216001344, Acc_class:0.8876027663964122, mIoU:0.5897894986748018, fwIoU: 0.9655438099842085
+Loss: 24.166
+
+=>Epoches 13, learning rate = 0.0001,                 previous best = 0.5898
+[Epoch: 13, numImages: 13550]
+Loss: 182.907
+Validation:
+[Epoch: 13, numImages:   714]
+Acc:0.9789621024470507, Acc_class:0.8862842040505845, mIoU:0.5922007322147532, fwIoU: 0.9656095289982466
+Loss: 24.534
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=True, ft=False, gpu_ids=[0], loss_type='ce_focal', lr=0.0002, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/model_best.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 13550
+Number of images in val: 714
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/model_best.pth.tar' (epoch 14)
+Starting Epoch: 14
+Total Epoches: 40
+
+=>Epoches 14, learning rate = 0.0001,                 previous best = 0.5922007
+[Epoch: 14, numImages: 13550]
+Loss: 186.743
+Validation:
+[Epoch: 14, numImages:   714]
+Acc:0.9786933720234392, Acc_class:0.8735022934787052, mIoU:0.5856181913260261, fwIoU: 0.9651914491214537
+Loss: 26.762
+
+=>Epoches 15, learning rate = 0.0001,                 previous best = 0.5922007
+[Epoch: 15, numImages: 13550]
+Loss: 184.841
+Validation:
+[Epoch: 15, numImages:   714]
+Acc:0.9797941871784175, Acc_class:0.8723427216869944, mIoU:0.5958497127141986, fwIoU: 0.9666355724900091
+Loss: 28.390
+
+=>Epoches 16, learning rate = 0.0001,                 previous best = 0.5958497
+[Epoch: 16, numImages: 13550]
+Loss: 184.778
+Validation:
+[Epoch: 16, numImages:   714]
+Acc:0.9763792607997536, Acc_class:0.8671092621355438, mIoU:0.5496936782080389, fwIoU: 0.9621914457204351
+Loss: 29.587
+
+=>Epoches 17, learning rate = 0.0001,                 previous best = 0.5958497
+[Epoch: 17, numImages: 13550]
+Loss: 294.366
+Validation:
+[Epoch: 17, numImages:   714]
+Acc:0.9676953386804517, Acc_class:0.8696634837340194, mIoU:0.4843625542816896, fwIoU: 0.951476869136459
+Loss: 25.591
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=True, ft=True, gpu_ids=[0], loss_type='ce_focal', lr=0.0001, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/model_best.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Number of images in train: 13550
+Number of images in val: 714
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/model_best.pth.tar' (epoch 16)
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0001000,                 previous best = 0.5958497
+[Epoch: 0, numImages: 13550]
+Loss: 158.689
+Validation:
+[Epoch: 0, numImages:   714]
+Acc:0.9806984455471874, Acc_class:0.8806788977084128, mIoU:0.6069676192151506, fwIoU: 0.9679177322114475
+Loss: 28.259
+
+=>Epoches 1, learning rate = 0.0000977,                 previous best = 0.6069676
+[Epoch: 1, numImages: 13550]
+Loss: 152.778
+Validation:
+[Epoch: 1, numImages:   714]
+Acc:0.9793573420409597, Acc_class:0.8885178748447109, mIoU:0.5957648874323325, fwIoU: 0.9661313512553668
+Loss: 28.107
+
+=>Epoches 2, learning rate = 0.0000955,                 previous best = 0.6069676
+[Epoch: 2, numImages: 13550]
+Loss: 164.917
+Validation:
+[Epoch: 2, numImages:   714]
+Acc:0.978956201430429, Acc_class:0.8665771540666418, mIoU:0.5779141955587404, fwIoU: 0.9656286081317059
+Loss: 32.116
+
+=>Epoches 3, learning rate = 0.0000932,                 previous best = 0.6069676
+[Epoch: 3, numImages: 13550]
+Loss: 160.979
+Validation:
+[Epoch: 3, numImages:   714]
+Acc:0.9800570623297222, Acc_class:0.8866094740329575, mIoU:0.6022263695826857, fwIoU: 0.9670715842681746
+Loss: 28.041
+
+=>Epoches 4, learning rate = 0.0000910,                 previous best = 0.6069676
+[Epoch: 4, numImages: 13550]
+Loss: 154.622
+Validation:
+[Epoch: 4, numImages:   714]
+Acc:0.981164177130352, Acc_class:0.8829424990334299, mIoU:0.6164056925325598, fwIoU: 0.9685450856936411
+Loss: 27.526
+
+=>Epoches 5, learning rate = 0.0000887,                 previous best = 0.6164057
+[Epoch: 5, numImages: 13550]
+Loss: 151.315
+Validation:
+[Epoch: 5, numImages:   714]
+Acc:0.9814051124369121, Acc_class:0.8815897827965584, mIoU:0.6180974578146764, fwIoU: 0.9688209415962264
+Loss: 28.582
+
+=>Epoches 6, learning rate = 0.0000864,                 previous best = 0.6180975
+[Epoch: 6, numImages: 13550]
+Loss: 145.284
+Validation:
+[Epoch: 6, numImages:   714]
+Acc:0.9801518924728034, Acc_class:0.8904317749379942, mIoU:0.6013200794386451, fwIoU: 0.9671763316785494
+Loss: 27.139
+
+=>Epoches 7, learning rate = 0.0000841,                 previous best = 0.6180975
+[Epoch: 7, numImages: 13550]
+Loss: 142.393
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=True, gpu_ids=[0], loss_type='ce_focal', lr=5e-05, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/model_best.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 13550
+Number of images in val: 714
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/model_best.pth.tar' (epoch 6)
+Starting Epoch: 0
+Total Epoches: 40
+Namespace(backbone='xception', base_size='570,1128', batch_size=2, checkname='deeplab-xception', crop_size='570,1128', cuda=True, dataset='laneline', epochs=40, eval_interval=1, freeze_bn=False, ft=True, gpu_ids=[0], loss_type='ce_focal', lr=5e-05, lr_scheduler='poly', momentum=0.9, nesterov=False, no_cuda=False, no_val=False, out_stride=16, resume='./run/laneline/deeplab-xception/model_best.pth.tar', seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=8)
+Number of images in train: 13550
+Number of images in val: 714
+Using poly LR Scheduler!
+=> loaded checkpoint './run/laneline/deeplab-xception/model_best.pth.tar' (epoch 6)
+Starting Epoch: 0
+Total Epoches: 40
+
+=>Epoches 0, learning rate = 0.0000500,                 previous best = 0.6180975
+[Epoch: 0, numImages: 13550]
+Loss: 139.288
+Validation:
+[Epoch: 0, numImages:   714]
+Acc:0.9811962743913044, Acc_class:0.8924383145360786, mIoU:0.6188545242441982, fwIoU: 0.9686221299675438
+Loss: 27.577
+
+=>Epoches 1, learning rate = 0.0000489,                 previous best = 0.6188545
+[Epoch: 1, numImages: 13550]
+Loss: 134.682
+Validation:
+[Epoch: 1, numImages:   714]
+Acc:0.9809208369798087, Acc_class:0.8931823961025558, mIoU:0.6201101695860878, fwIoU: 0.9682265468506394
+Loss: 26.589
+
+=>Epoches 2, learning rate = 0.0000477,                 previous best = 0.6201102
+[Epoch: 2, numImages: 13550]
+Loss: 131.790
+Validation:
+[Epoch: 2, numImages:   714]
+Acc:0.9820711126306937, Acc_class:0.8834160369671321, mIoU:0.6282072793122009, fwIoU: 0.9697252327856344
+Loss: 30.128
+
+=>Epoches 3, learning rate = 0.0000466,                 previous best = 0.6282073
+[Epoch: 3, numImages: 13550]
+Loss: 129.713
+Validation:
+[Epoch: 3, numImages:   714]
+Acc:0.9821436435094132, Acc_class:0.8969716278935578, mIoU:0.6283273654184123, fwIoU: 0.9699954980163418
+Loss: 26.578
+
+=>Epoches 4, learning rate = 0.0000455,                 previous best = 0.6283274
+[Epoch: 4, numImages: 13550]
+Loss: 126.502
+Validation:
+[Epoch: 4, numImages:   714]
+Acc:0.9821133193852383, Acc_class:0.887450553448881, mIoU:0.6259007748941154, fwIoU: 0.9698685785928516
+Loss: 30.537
