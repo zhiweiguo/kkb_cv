@@ -1,0 +1,664 @@
+Number of images in train: 150
+恢复了100层参数
+epoch = 1/100 start train!!!
+    iter:1/5, train loss = 2.5007, lr = 0.001
+    iter:2/5, train loss = 2.6280, lr = 0.001
+    iter:3/5, train loss = 3.0352, lr = 0.001
+    iter:4/5, train loss = 2.0109, lr = 0.001
+    iter:5/5, train loss = 2.7172, lr = 0.001
+epoch = 1/100 train end, total train loss = 12.8920
+epoch = 1/100, total val loss = 218.8551254272461, val acc = 18.666666666666668
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch1_18.667.pth
+
+epoch = 2/100 start train!!!
+    iter:1/5, train loss = 1.8413, lr = 0.001
+    iter:2/5, train loss = 1.9811, lr = 0.001
+    iter:3/5, train loss = 1.4339, lr = 0.001
+    iter:4/5, train loss = 1.7649, lr = 0.001
+    iter:5/5, train loss = 1.7971, lr = 0.001
+epoch = 2/100 train end, total train loss = 8.8182
+epoch = 2/100, total val loss = 46.23668193817139, val acc = 17.333333333333336
+
+epoch = 3/100 start train!!!
+    iter:1/5, train loss = 1.3015, lr = 0.001
+    iter:2/5, train loss = 1.3309, lr = 0.001
+    iter:3/5, train loss = 1.4130, lr = 0.001
+    iter:4/5, train loss = 1.3203, lr = 0.001
+    iter:5/5, train loss = 1.4623, lr = 0.001
+epoch = 3/100 train end, total train loss = 6.8280
+epoch = 3/100, total val loss = 12.414665937423706, val acc = 28.666666666666668
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch3_28.667.pth
+
+epoch = 4/100 start train!!!
+    iter:1/5, train loss = 0.7356, lr = 0.001
+    iter:2/5, train loss = 1.2422, lr = 0.001
+    iter:3/5, train loss = 1.3497, lr = 0.001
+    iter:4/5, train loss = 0.9935, lr = 0.001
+    iter:5/5, train loss = 1.1773, lr = 0.001
+epoch = 4/100 train end, total train loss = 5.4983
+epoch = 4/100, total val loss = 10.706055045127869, val acc = 48.0
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch4_48.000.pth
+
+epoch = 5/100 start train!!!
+    iter:1/5, train loss = 1.2544, lr = 0.001
+    iter:2/5, train loss = 1.0666, lr = 0.001
+    iter:3/5, train loss = 0.7780, lr = 0.001
+    iter:4/5, train loss = 1.0104, lr = 0.001
+    iter:5/5, train loss = 0.9296, lr = 0.001
+epoch = 5/100 train end, total train loss = 5.0390
+epoch = 5/100, total val loss = 5.199459612369537, val acc = 62.0
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch5_62.000.pth
+
+epoch = 6/100 start train!!!
+    iter:1/5, train loss = 0.7367, lr = 0.001
+    iter:2/5, train loss = 1.1305, lr = 0.001
+    iter:3/5, train loss = 0.6500, lr = 0.001
+    iter:4/5, train loss = 1.2866, lr = 0.001
+    iter:5/5, train loss = 0.8214, lr = 0.001
+epoch = 6/100 train end, total train loss = 4.6252
+epoch = 6/100, total val loss = 8.37764060497284, val acc = 58.666666666666664
+
+epoch = 7/100 start train!!!
+    iter:1/5, train loss = 0.5766, lr = 0.001
+    iter:2/5, train loss = 0.9022, lr = 0.001
+    iter:3/5, train loss = 1.0870, lr = 0.001
+    iter:4/5, train loss = 1.1373, lr = 0.001
+    iter:5/5, train loss = 1.7881, lr = 0.001
+epoch = 7/100 train end, total train loss = 5.4913
+epoch = 7/100, total val loss = 18.808423399925232, val acc = 34.0
+
+epoch = 8/100 start train!!!
+    iter:1/5, train loss = 0.9395, lr = 0.001
+    iter:2/5, train loss = 0.8442, lr = 0.001
+    iter:3/5, train loss = 0.7666, lr = 0.001
+    iter:4/5, train loss = 0.8755, lr = 0.001
+    iter:5/5, train loss = 0.9313, lr = 0.001
+epoch = 8/100 train end, total train loss = 4.3571
+epoch = 8/100, total val loss = 3.3114878237247467, val acc = 72.66666666666667
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch8_72.667.pth
+
+epoch = 9/100 start train!!!
+    iter:1/5, train loss = 0.8112, lr = 0.001
+    iter:2/5, train loss = 0.5454, lr = 0.001
+    iter:3/5, train loss = 0.5395, lr = 0.001
+    iter:4/5, train loss = 0.6827, lr = 0.001
+    iter:5/5, train loss = 0.6581, lr = 0.001
+epoch = 9/100 train end, total train loss = 3.2368
+epoch = 9/100, total val loss = 2.8655447363853455, val acc = 82.66666666666667
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch9_82.667.pth
+
+epoch = 10/100 start train!!!
+    iter:1/5, train loss = 0.4312, lr = 0.001
+    iter:2/5, train loss = 0.5847, lr = 0.001
+    iter:3/5, train loss = 0.4406, lr = 0.001
+    iter:4/5, train loss = 1.0696, lr = 0.001
+    iter:5/5, train loss = 0.7977, lr = 0.001
+epoch = 10/100 train end, total train loss = 3.3239
+epoch = 10/100, total val loss = 8.131636381149292, val acc = 55.333333333333336
+
+epoch = 11/100 start train!!!
+    iter:1/5, train loss = 0.5479, lr = 0.0001
+    iter:2/5, train loss = 0.8117, lr = 0.0001
+    iter:3/5, train loss = 0.3495, lr = 0.0001
+    iter:4/5, train loss = 0.6097, lr = 0.0001
+    iter:5/5, train loss = 0.5321, lr = 0.0001
+epoch = 11/100 train end, total train loss = 2.8508
+epoch = 11/100, total val loss = 3.6196141839027405, val acc = 72.0
+
+epoch = 12/100 start train!!!
+    iter:1/5, train loss = 0.5661, lr = 0.0001
+    iter:2/5, train loss = 0.6064, lr = 0.0001
+    iter:3/5, train loss = 0.2781, lr = 0.0001
+    iter:4/5, train loss = 0.3252, lr = 0.0001
+    iter:5/5, train loss = 0.6786, lr = 0.0001
+epoch = 12/100 train end, total train loss = 2.4544
+epoch = 12/100, total val loss = 2.0386329889297485, val acc = 86.66666666666667
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch12_86.667.pth
+
+epoch = 13/100 start train!!!
+    iter:1/5, train loss = 0.4085, lr = 0.0001
+    iter:2/5, train loss = 0.4183, lr = 0.0001
+    iter:3/5, train loss = 0.4889, lr = 0.0001
+    iter:4/5, train loss = 0.4958, lr = 0.0001
+    iter:5/5, train loss = 0.5905, lr = 0.0001
+epoch = 13/100 train end, total train loss = 2.4020
+epoch = 13/100, total val loss = 1.89357490837574, val acc = 90.0
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch13_90.000.pth
+
+epoch = 14/100 start train!!!
+    iter:1/5, train loss = 0.3380, lr = 0.0001
+    iter:2/5, train loss = 0.8234, lr = 0.0001
+    iter:3/5, train loss = 0.2977, lr = 0.0001
+    iter:4/5, train loss = 0.4246, lr = 0.0001
+    iter:5/5, train loss = 0.4440, lr = 0.0001
+epoch = 14/100 train end, total train loss = 2.3276
+epoch = 14/100, total val loss = 1.753834292292595, val acc = 91.33333333333333
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch14_91.333.pth
+
+epoch = 15/100 start train!!!
+    iter:1/5, train loss = 0.1965, lr = 0.0001
+    iter:2/5, train loss = 0.3756, lr = 0.0001
+    iter:3/5, train loss = 0.5286, lr = 0.0001
+    iter:4/5, train loss = 0.3047, lr = 0.0001
+    iter:5/5, train loss = 0.4833, lr = 0.0001
+epoch = 15/100 train end, total train loss = 1.8887
+epoch = 15/100, total val loss = 1.6728326082229614, val acc = 90.66666666666666
+
+epoch = 16/100 start train!!!
+    iter:1/5, train loss = 0.5006, lr = 0.0001
+    iter:2/5, train loss = 0.2636, lr = 0.0001
+    iter:3/5, train loss = 0.3122, lr = 0.0001
+    iter:4/5, train loss = 0.2518, lr = 0.0001
+    iter:5/5, train loss = 0.2687, lr = 0.0001
+epoch = 16/100 train end, total train loss = 1.5969
+epoch = 16/100, total val loss = 1.5967847406864166, val acc = 91.33333333333333
+
+epoch = 17/100 start train!!!
+    iter:1/5, train loss = 0.2168, lr = 0.0001
+    iter:2/5, train loss = 0.3139, lr = 0.0001
+    iter:3/5, train loss = 0.4386, lr = 0.0001
+    iter:4/5, train loss = 0.3098, lr = 0.0001
+    iter:5/5, train loss = 0.2740, lr = 0.0001
+epoch = 17/100 train end, total train loss = 1.5532
+epoch = 17/100, total val loss = 1.3770205080509186, val acc = 92.66666666666666
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch17_92.667.pth
+
+epoch = 18/100 start train!!!
+    iter:1/5, train loss = 0.5976, lr = 0.0001
+    iter:2/5, train loss = 0.3505, lr = 0.0001
+    iter:3/5, train loss = 0.4412, lr = 0.0001
+    iter:4/5, train loss = 0.4495, lr = 0.0001
+    iter:5/5, train loss = 0.1138, lr = 0.0001
+epoch = 18/100 train end, total train loss = 1.9527
+epoch = 18/100, total val loss = 1.304030790925026, val acc = 92.66666666666666
+
+epoch = 19/100 start train!!!
+    iter:1/5, train loss = 0.2813, lr = 0.0001
+    iter:2/5, train loss = 0.1823, lr = 0.0001
+    iter:3/5, train loss = 0.2057, lr = 0.0001
+    iter:4/5, train loss = 0.5812, lr = 0.0001
+    iter:5/5, train loss = 0.3103, lr = 0.0001
+epoch = 19/100 train end, total train loss = 1.5609
+epoch = 19/100, total val loss = 1.3034293502569199, val acc = 94.0
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch19_94.000.pth
+
+epoch = 20/100 start train!!!
+    iter:1/5, train loss = 0.2548, lr = 0.0001
+    iter:2/5, train loss = 0.3643, lr = 0.0001
+    iter:3/5, train loss = 0.2266, lr = 0.0001
+    iter:4/5, train loss = 0.2266, lr = 0.0001
+    iter:5/5, train loss = 0.5633, lr = 0.0001
+epoch = 20/100 train end, total train loss = 1.6357
+epoch = 20/100, total val loss = 1.21002759039402, val acc = 93.33333333333333
+
+epoch = 21/100 start train!!!
+    iter:1/5, train loss = 0.1851, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2501, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2897, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.2911, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.3149, lr = 1.0000000000000003e-05
+epoch = 21/100 train end, total train loss = 1.3309
+epoch = 21/100, total val loss = 1.1468126326799393, val acc = 94.66666666666667
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch21_94.667.pth
+
+epoch = 22/100 start train!!!
+    iter:1/5, train loss = 0.1636, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2357, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2622, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.1979, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.4215, lr = 1.0000000000000003e-05
+epoch = 22/100 train end, total train loss = 1.2809
+epoch = 22/100, total val loss = 1.0907012820243835, val acc = 95.33333333333334
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch22_95.333.pth
+
+epoch = 23/100 start train!!!
+    iter:1/5, train loss = 0.2078, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2913, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2313, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.1891, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.3529, lr = 1.0000000000000003e-05
+epoch = 23/100 train end, total train loss = 1.2724
+epoch = 23/100, total val loss = 1.0348854213953018, val acc = 93.33333333333333
+
+epoch = 24/100 start train!!!
+    iter:1/5, train loss = 0.2852, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2208, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2981, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.1655, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.3127, lr = 1.0000000000000003e-05
+epoch = 24/100 train end, total train loss = 1.2824
+epoch = 24/100, total val loss = 1.0299029648303986, val acc = 95.33333333333334
+
+epoch = 25/100 start train!!!
+    iter:1/5, train loss = 0.2995, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2351, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2094, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.5073, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.1469, lr = 1.0000000000000003e-05
+epoch = 25/100 train end, total train loss = 1.3981
+epoch = 25/100, total val loss = 1.1148874908685684, val acc = 94.0
+
+epoch = 26/100 start train!!!
+    iter:1/5, train loss = 0.1076, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2500, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.1981, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.3768, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.4643, lr = 1.0000000000000003e-05
+epoch = 26/100 train end, total train loss = 1.3968
+epoch = 26/100, total val loss = 1.0396388173103333, val acc = 94.66666666666667
+
+epoch = 27/100 start train!!!
+    iter:1/5, train loss = 0.1737, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2581, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2960, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.1728, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.2703, lr = 1.0000000000000003e-05
+epoch = 27/100 train end, total train loss = 1.1709
+epoch = 27/100, total val loss = 1.0200022757053375, val acc = 96.0
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch27_96.000.pth
+
+epoch = 28/100 start train!!!
+    iter:1/5, train loss = 0.2219, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.3508, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2747, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.1099, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.2418, lr = 1.0000000000000003e-05
+epoch = 28/100 train end, total train loss = 1.1991
+epoch = 28/100, total val loss = 1.018984779715538, val acc = 95.33333333333334
+
+epoch = 29/100 start train!!!
+    iter:1/5, train loss = 0.1654, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2938, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.3644, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.2562, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.2451, lr = 1.0000000000000003e-05
+epoch = 29/100 train end, total train loss = 1.3249
+epoch = 29/100, total val loss = 0.9853050038218498, val acc = 95.33333333333334
+
+epoch = 30/100 start train!!!
+    iter:1/5, train loss = 0.2029, lr = 1.0000000000000003e-05
+    iter:2/5, train loss = 0.2537, lr = 1.0000000000000003e-05
+    iter:3/5, train loss = 0.2622, lr = 1.0000000000000003e-05
+    iter:4/5, train loss = 0.2672, lr = 1.0000000000000003e-05
+    iter:5/5, train loss = 0.1951, lr = 1.0000000000000003e-05
+epoch = 30/100 train end, total train loss = 1.1811
+epoch = 30/100, total val loss = 1.0236564725637436, val acc = 95.33333333333334
+
+epoch = 31/100 start train!!!
+    iter:1/5, train loss = 0.1807, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.1892, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.3732, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.1313, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.4136, lr = 1.0000000000000002e-06
+epoch = 31/100 train end, total train loss = 1.2880
+epoch = 31/100, total val loss = 0.9922239407896996, val acc = 96.0
+
+epoch = 32/100 start train!!!
+    iter:1/5, train loss = 0.2367, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.2302, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.3154, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.2661, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.1984, lr = 1.0000000000000002e-06
+epoch = 32/100 train end, total train loss = 1.2468
+epoch = 32/100, total val loss = 0.9515452608466148, val acc = 96.0
+
+epoch = 33/100 start train!!!
+    iter:1/5, train loss = 0.3501, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.1494, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.1518, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.2691, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.2429, lr = 1.0000000000000002e-06
+epoch = 33/100 train end, total train loss = 1.1633
+epoch = 33/100, total val loss = 0.9423901364207268, val acc = 95.33333333333334
+
+epoch = 34/100 start train!!!
+    iter:1/5, train loss = 0.2023, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.2073, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.1838, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.3553, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.2185, lr = 1.0000000000000002e-06
+epoch = 34/100 train end, total train loss = 1.1672
+epoch = 34/100, total val loss = 1.0101655721664429, val acc = 95.33333333333334
+
+epoch = 35/100 start train!!!
+    iter:1/5, train loss = 0.3031, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.2894, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.3326, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.1652, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.4774, lr = 1.0000000000000002e-06
+epoch = 35/100 train end, total train loss = 1.5677
+epoch = 35/100, total val loss = 0.974836602807045, val acc = 95.33333333333334
+
+epoch = 36/100 start train!!!
+    iter:1/5, train loss = 0.2026, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.2653, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.2400, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.2419, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.2999, lr = 1.0000000000000002e-06
+epoch = 36/100 train end, total train loss = 1.2496
+epoch = 36/100, total val loss = 1.0036180913448334, val acc = 96.66666666666667
+
+模型保存成功!!!, 保存路径为:./ckpt/resnet18_epoch36_96.667.pth
+
+epoch = 37/100 start train!!!
+    iter:1/5, train loss = 0.3239, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.1806, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.1952, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.1427, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.3293, lr = 1.0000000000000002e-06
+epoch = 37/100 train end, total train loss = 1.1716
+epoch = 37/100, total val loss = 0.966810792684555, val acc = 95.33333333333334
+
+epoch = 38/100 start train!!!
+    iter:1/5, train loss = 0.2351, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.1813, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.2158, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.2516, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.2834, lr = 1.0000000000000002e-06
+epoch = 38/100 train end, total train loss = 1.1672
+epoch = 38/100, total val loss = 0.9646078199148178, val acc = 95.33333333333334
+
+epoch = 39/100 start train!!!
+    iter:1/5, train loss = 0.2104, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.2246, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.2362, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.3032, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.2398, lr = 1.0000000000000002e-06
+epoch = 39/100 train end, total train loss = 1.2143
+epoch = 39/100, total val loss = 0.916676476597786, val acc = 96.0
+
+epoch = 40/100 start train!!!
+    iter:1/5, train loss = 0.3801, lr = 1.0000000000000002e-06
+    iter:2/5, train loss = 0.2761, lr = 1.0000000000000002e-06
+    iter:3/5, train loss = 0.1543, lr = 1.0000000000000002e-06
+    iter:4/5, train loss = 0.1995, lr = 1.0000000000000002e-06
+    iter:5/5, train loss = 0.3441, lr = 1.0000000000000002e-06
+epoch = 40/100 train end, total train loss = 1.3542
+epoch = 40/100, total val loss = 1.005728006362915, val acc = 95.33333333333334
+
+epoch = 41/100 start train!!!
+    iter:1/5, train loss = 0.2513, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.3602, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.2453, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.1439, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.2981, lr = 1.0000000000000002e-07
+epoch = 41/100 train end, total train loss = 1.2988
+epoch = 41/100, total val loss = 0.9304906278848648, val acc = 95.33333333333334
+
+epoch = 42/100 start train!!!
+    iter:1/5, train loss = 0.3205, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.2882, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.2676, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.1502, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.1225, lr = 1.0000000000000002e-07
+epoch = 42/100 train end, total train loss = 1.1490
+epoch = 42/100, total val loss = 0.9657880067825317, val acc = 95.33333333333334
+
+epoch = 43/100 start train!!!
+    iter:1/5, train loss = 0.2015, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.4396, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.1667, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.1640, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.1881, lr = 1.0000000000000002e-07
+epoch = 43/100 train end, total train loss = 1.1599
+epoch = 43/100, total val loss = 0.9744748771190643, val acc = 96.0
+
+epoch = 44/100 start train!!!
+    iter:1/5, train loss = 0.2641, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.1348, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.3345, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.1507, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.3894, lr = 1.0000000000000002e-07
+epoch = 44/100 train end, total train loss = 1.2734
+epoch = 44/100, total val loss = 0.9481951892375946, val acc = 95.33333333333334
+
+epoch = 45/100 start train!!!
+    iter:1/5, train loss = 0.2556, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.2430, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.3342, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.1547, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.1979, lr = 1.0000000000000002e-07
+epoch = 45/100 train end, total train loss = 1.1855
+epoch = 45/100, total val loss = 0.9407876580953598, val acc = 96.0
+
+epoch = 46/100 start train!!!
+    iter:1/5, train loss = 0.1827, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.1860, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.2533, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.3288, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.1512, lr = 1.0000000000000002e-07
+epoch = 46/100 train end, total train loss = 1.1019
+epoch = 46/100, total val loss = 0.9574668407440186, val acc = 96.0
+
+epoch = 47/100 start train!!!
+    iter:1/5, train loss = 0.2760, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.1877, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.2221, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.2394, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.3236, lr = 1.0000000000000002e-07
+epoch = 47/100 train end, total train loss = 1.2488
+epoch = 47/100, total val loss = 0.9579726606607437, val acc = 95.33333333333334
+
+epoch = 48/100 start train!!!
+    iter:1/5, train loss = 0.2565, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.1617, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.1999, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.3549, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.2303, lr = 1.0000000000000002e-07
+epoch = 48/100 train end, total train loss = 1.2033
+epoch = 48/100, total val loss = 0.9898492395877838, val acc = 94.66666666666667
+
+epoch = 49/100 start train!!!
+    iter:1/5, train loss = 0.2858, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.2346, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.2223, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.2187, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.3313, lr = 1.0000000000000002e-07
+epoch = 49/100 train end, total train loss = 1.2928
+epoch = 49/100, total val loss = 0.9451367184519768, val acc = 96.0
+
+epoch = 50/100 start train!!!
+    iter:1/5, train loss = 0.1399, lr = 1.0000000000000002e-07
+    iter:2/5, train loss = 0.3117, lr = 1.0000000000000002e-07
+    iter:3/5, train loss = 0.2715, lr = 1.0000000000000002e-07
+    iter:4/5, train loss = 0.2733, lr = 1.0000000000000002e-07
+    iter:5/5, train loss = 0.1552, lr = 1.0000000000000002e-07
+epoch = 50/100 train end, total train loss = 1.1516
+epoch = 50/100, total val loss = 1.0599402040243149, val acc = 95.33333333333334
+
+epoch = 51/100 start train!!!
+    iter:1/5, train loss = 0.2465, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.3029, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.2851, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.1919, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.3923, lr = 1.0000000000000004e-08
+epoch = 51/100 train end, total train loss = 1.4187
+epoch = 51/100, total val loss = 0.9278818592429161, val acc = 96.0
+
+epoch = 52/100 start train!!!
+    iter:1/5, train loss = 0.1548, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.1818, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.3120, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.2734, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.3744, lr = 1.0000000000000004e-08
+epoch = 52/100 train end, total train loss = 1.2965
+epoch = 52/100, total val loss = 0.9335049241781235, val acc = 96.66666666666667
+
+epoch = 53/100 start train!!!
+    iter:1/5, train loss = 0.3821, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.0954, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.1666, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.1189, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.3670, lr = 1.0000000000000004e-08
+epoch = 53/100 train end, total train loss = 1.1299
+epoch = 53/100, total val loss = 0.9647392258048058, val acc = 95.33333333333334
+
+epoch = 54/100 start train!!!
+    iter:1/5, train loss = 0.1595, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.2730, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.2867, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.2942, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.1265, lr = 1.0000000000000004e-08
+epoch = 54/100 train end, total train loss = 1.1399
+epoch = 54/100, total val loss = 0.9580054432153702, val acc = 95.33333333333334
+
+epoch = 55/100 start train!!!
+    iter:1/5, train loss = 0.1943, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.2840, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.2503, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.1860, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.2131, lr = 1.0000000000000004e-08
+epoch = 55/100 train end, total train loss = 1.1277
+epoch = 55/100, total val loss = 0.9220035225152969, val acc = 95.33333333333334
+
+epoch = 56/100 start train!!!
+    iter:1/5, train loss = 0.2165, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.3116, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.2011, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.1689, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.2113, lr = 1.0000000000000004e-08
+epoch = 56/100 train end, total train loss = 1.1095
+epoch = 56/100, total val loss = 0.9164609611034393, val acc = 96.0
+
+epoch = 57/100 start train!!!
+    iter:1/5, train loss = 0.1048, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.2142, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.2209, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.2790, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.3349, lr = 1.0000000000000004e-08
+epoch = 57/100 train end, total train loss = 1.1539
+epoch = 57/100, total val loss = 0.9472918435931206, val acc = 95.33333333333334
+
+epoch = 58/100 start train!!!
+    iter:1/5, train loss = 0.3297, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.1593, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.1668, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.2393, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.4106, lr = 1.0000000000000004e-08
+epoch = 58/100 train end, total train loss = 1.3057
+epoch = 58/100, total val loss = 1.000256970524788, val acc = 95.33333333333334
+
+epoch = 59/100 start train!!!
+    iter:1/5, train loss = 0.2616, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.2032, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.2665, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.1760, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.2028, lr = 1.0000000000000004e-08
+epoch = 59/100 train end, total train loss = 1.1102
+epoch = 59/100, total val loss = 0.9937785565853119, val acc = 95.33333333333334
+
+epoch = 60/100 start train!!!
+    iter:1/5, train loss = 0.2019, lr = 1.0000000000000004e-08
+    iter:2/5, train loss = 0.2288, lr = 1.0000000000000004e-08
+    iter:3/5, train loss = 0.1813, lr = 1.0000000000000004e-08
+    iter:4/5, train loss = 0.2131, lr = 1.0000000000000004e-08
+    iter:5/5, train loss = 0.4035, lr = 1.0000000000000004e-08
+epoch = 60/100 train end, total train loss = 1.2286
+epoch = 60/100, total val loss = 0.9210008606314659, val acc = 95.33333333333334
+
+epoch = 61/100 start train!!!
+    iter:1/5, train loss = 0.1750, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.1286, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.3163, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.4058, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.6661, lr = 1.0000000000000005e-09
+epoch = 61/100 train end, total train loss = 1.6918
+epoch = 61/100, total val loss = 0.9563897997140884, val acc = 96.0
+
+epoch = 62/100 start train!!!
+    iter:1/5, train loss = 0.2279, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.2846, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.2100, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.2266, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.2338, lr = 1.0000000000000005e-09
+epoch = 62/100 train end, total train loss = 1.1828
+epoch = 62/100, total val loss = 0.9294801130890846, val acc = 96.0
+
+epoch = 63/100 start train!!!
+    iter:1/5, train loss = 0.2018, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.1157, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.3645, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.2616, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.3152, lr = 1.0000000000000005e-09
+epoch = 63/100 train end, total train loss = 1.2589
+epoch = 63/100, total val loss = 0.9549068063497543, val acc = 96.0
+
+epoch = 64/100 start train!!!
+    iter:1/5, train loss = 0.1494, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.2347, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.2584, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.2882, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.2165, lr = 1.0000000000000005e-09
+epoch = 64/100 train end, total train loss = 1.1471
+epoch = 64/100, total val loss = 0.9815080314874649, val acc = 95.33333333333334
+
+epoch = 65/100 start train!!!
+    iter:1/5, train loss = 0.2006, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.4243, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.2846, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.1054, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.2293, lr = 1.0000000000000005e-09
+epoch = 65/100 train end, total train loss = 1.2442
+epoch = 65/100, total val loss = 0.9478052258491516, val acc = 96.0
+
+epoch = 66/100 start train!!!
+    iter:1/5, train loss = 0.2795, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.2069, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.2404, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.1889, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.1204, lr = 1.0000000000000005e-09
+epoch = 66/100 train end, total train loss = 1.0360
+epoch = 66/100, total val loss = 0.9404886215925217, val acc = 96.0
+
+epoch = 67/100 start train!!!
+    iter:1/5, train loss = 0.3275, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.1067, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.1094, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.1459, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.5768, lr = 1.0000000000000005e-09
+epoch = 67/100 train end, total train loss = 1.2663
+epoch = 67/100, total val loss = 0.9451711624860764, val acc = 96.0
+
+epoch = 68/100 start train!!!
+    iter:1/5, train loss = 0.2587, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.2235, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.1492, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.2225, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.4056, lr = 1.0000000000000005e-09
+epoch = 68/100 train end, total train loss = 1.2594
+epoch = 68/100, total val loss = 0.9240472763776779, val acc = 96.0
+
+epoch = 69/100 start train!!!
+    iter:1/5, train loss = 0.1297, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.2050, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.2547, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.2579, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.3418, lr = 1.0000000000000005e-09
+epoch = 69/100 train end, total train loss = 1.1891
+epoch = 69/100, total val loss = 0.9507312700152397, val acc = 96.0
+
+epoch = 70/100 start train!!!
+    iter:1/5, train loss = 0.3377, lr = 1.0000000000000005e-09
+    iter:2/5, train loss = 0.3006, lr = 1.0000000000000005e-09
+    iter:3/5, train loss = 0.1973, lr = 1.0000000000000005e-09
+    iter:4/5, train loss = 0.1188, lr = 1.0000000000000005e-09
+    iter:5/5, train loss = 0.1451, lr = 1.0000000000000005e-09
+epoch = 70/100 train end, total train loss = 1.0996
+epoch = 70/100, total val loss = 1.0134563744068146, val acc = 96.0
+
+epoch = 71/100 start train!!!
+    iter:1/5, train loss = 0.3111, lr = 1.0000000000000004e-10
