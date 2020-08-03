@@ -1,0 +1,5 @@
+作业说明:
+
+loss总结.pdf	# 关于常用的几种loss的总结
+softmax求导.pdf	# 对于softmax及交叉熵的求导
+softmax.py	# 基于numpy和torch两种方式的softmax实现
