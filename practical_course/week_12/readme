@@ -1,0 +1,6 @@
+作业说明：
+
+coco_anno_process.py	# 读取json文件,重构json文件,画图显示灯功能代码
+ext_val.json		# 整理后的json文件
+json文件说明.jpg	# 整理后的json文件结构说明
+draw_imgs/		# 画出标注结果后的图像
