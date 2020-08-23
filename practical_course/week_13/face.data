@@ -1,0 +1,6 @@
+classes= 2
+train=data/face_mask/trainval/train.txt
+valid=data/face_mask/trainval/val.txt
+names=data/face_mask/face.names
+backup=backup/
+eval=face

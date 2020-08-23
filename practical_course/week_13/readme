@@ -1,0 +1,11 @@
+作业说明:
+
+
+output/		# 模型推理预测结果样例
+eval_result.jpg	# 模型评估结果
+log4		# 模型训练过程log
+face.data	# 模型配置信息
+face_mask.cfg	# 模型结构信息
+
+xml2txt.py	# xml文件转txt文件代码
+bug_imgs_name.txt	# 标注存在问题的图片列表
