@@ -1,2 +1,8 @@
 作业说明：
 
+imgs/			# gridmask、mosaic数据增强样例图片
+code/			# 源码
+			# train.py中通过参数配置可以选择不同模式的数据增强和正则化方法
+			# utils/dataset.py 中包含mosaic数据增强
+			# utils/grid.py 中包含gridmask数据增强
+			# utils/regularization.py 中包含label smooth、 dropblock等正则化方法,均可通过参数配置是否使用
