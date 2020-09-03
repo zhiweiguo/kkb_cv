@@ -1,0 +1,13 @@
+作业说明:
+
+code/			# 源码,其中code/utils/activation.py为swish和mish的实现,在train.py中配置使用哪种激活函数
+
+output/			# 样例图检测结果
+
+eval_res/		# relu, swish, mish 三种激活函数训练模型的评估结果对比
+
+# 单张图片平均推理时间很接近，分别为：
+relu:    0.071s
+swish:   0.067s
+mish:    0.075s
+
