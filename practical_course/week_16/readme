@@ -1,0 +1,11 @@
+作业说明:
+
+
+标准卷积替换为depthwise卷积
+# 根据参数配置决定使用卷积的方式
+models.py       
+train.py     
+
+模型转换
+# pytorch模型转为onnx模型
+pytorch2onnx.py
