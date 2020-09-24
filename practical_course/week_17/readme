@@ -1,0 +1,4 @@
+作业说明:
+
+face_detect.py			# 人脸检测+特征点检测功能代码
+gradient_down.py		# 两种方法的梯度下降代码
