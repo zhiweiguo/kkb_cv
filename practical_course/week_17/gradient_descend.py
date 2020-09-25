@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
-@File    :   gradient_down.py
+@File    :   gradient_descend.py
 @Time    :   2020/09/24 22:38:13
 @Author  :   guo.zhiwei
 @Contact :   zhiweiguo1991@163.com
