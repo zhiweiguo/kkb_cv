@@ -1,0 +1,4 @@
+作业说明:
+
+1. 在train.py  model_baseline_Fusion.py中补充完代码;
+2. 基于train_data中提供的少量数据跑通了train.py，训练过程的简图为train_log.jpg

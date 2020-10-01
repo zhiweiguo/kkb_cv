@@ -1,0 +1,143 @@
+data_fusion.py: calling main function ... 
+fold: <NIL>
+color
+train
+fold index set:  <NIL>
+set dataset mode: train
+balance!!!!!!!!
+num of pos:15
+num of neg:7
+22
+<__main__.FDDataset object at 0x7f91fec49a90>
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/151.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/151.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/151.jpg
+(327, 297, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/131.jpg
+(319, 302, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/11.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/11.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/11.jpg
+(287, 263, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/131.jpg
+(319, 302, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/121.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/121.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/121.jpg
+(287, 265, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/151.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/151.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/151.jpg
+(327, 297, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/111.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/111.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/111.jpg
+(239, 262, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/111.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/111.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/111.jpg
+(239, 262, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/111.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/111.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/111.jpg
+(239, 262, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/101.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/101.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/101.jpg
+(279, 279, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/color/81.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/depth/81.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/ir/81.jpg
+(262, 260, 3)
+torch.Size([9, 112, 112])
+tensor([1])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/11.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/11.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/11.jpg
+(287, 263, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/121.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/121.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/121.jpg
+(287, 265, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/color/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/depth/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/ir/131.jpg
+(228, 172, 3)
+torch.Size([9, 112, 112])
+tensor([1])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/131.jpg
+(319, 302, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/color/41.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/depth/41.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/ir/41.jpg
+(267, 215, 3)
+torch.Size([9, 112, 112])
+tensor([1])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/151.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/151.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/151.jpg
+(327, 297, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/color/81.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/depth/81.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/ir/81.jpg
+(262, 260, 3)
+torch.Size([9, 112, 112])
+tensor([1])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/color/51.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/depth/51.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/ir/51.jpg
+(225, 208, 3)
+torch.Size([9, 112, 112])
+tensor([1])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/color/171.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/depth/171.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/ir/171.jpg
+(244, 227, 3)
+torch.Size([9, 112, 112])
+tensor([1])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/color/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/depth/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/fake_part/CLKJ_AS0005/04_en_b.rssdk/ir/131.jpg
+(319, 302, 3)
+torch.Size([9, 112, 112])
+tensor([0])
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/color/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/depth/131.jpg
+/Users/zhaomingming/Documents/CVPRO/face_anti_spoofing_活体检测/CASIA_SURF/images/train/Training/real_part/CLKJ_BS0750/real.rssdk/ir/131.jpg
+(228, 172, 3)
+torch.Size([9, 112, 112])
+tensor([1])
