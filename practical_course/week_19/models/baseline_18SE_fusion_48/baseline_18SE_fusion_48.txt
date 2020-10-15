@@ -1,0 +1,166 @@
+	out_dir      = ./models/baseline_18SE_fusion_48
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 128
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x7ff3330cff98>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x7ff3330cfd30>
+
+** net setting **
+<class 'model_fusion.model_baseline_SEFusion.FusionNet'>
+criterion=<function softmax_cross_entropy_criterion at 0x7ff3624d6f28>
+
+
+** start training here! **
+                                  |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+model_name   lr   iter  epoch     |     loss      acer      acc    |     loss              acc     |  time   
+----------------------------------------------------------------------------------------------------
+	out_dir      = ./models/baseline_18SE_fusion_48
+
+	<additional comments>
+	  ... xxx baseline  ... 
+
+** dataset setting **
+batch_size = 256
+train_dataset : 
+<process.data_fusion.FDDataset object at 0x7f3cd0e3f048>
+valid_dataset : 
+<process.data_fusion.FDDataset object at 0x7f3cd0e32e10>
+
+** net setting **
+<class 'model_fusion.model_baseline_SEFusion.FusionNet'>
+criterion=<function softmax_cross_entropy_criterion at 0x7f3cfe8e0f28>
+
+
+** start training here! **
+                                  |------------ VALID -------------|-------- TRAIN/BATCH ----------|         
+model_name   lr   iter  epoch     |     loss      acer      acc    |     loss              acc     |  time   
+----------------------------------------------------------------------------------------------------
+baseline_18SE_fusion_48 Cycle 0: 0.0994 113.0    0.0 | 0.000000  0.000000  0.000    | 0.095531  0.964844 | 0 hr 03 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0976 227.0    1.0 | 0.000000  0.000000  0.000    | 0.081554  0.968750 | 0 hr 06 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0946 341.0    2.0 | 0.000000  0.000000  0.000    | 0.067744  0.968750 | 0 hr 09 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0905 455.0    3.0 | 0.000000  0.000000  0.000    | 0.058133  0.980469 | 0 hr 12 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0855 569.0    4.0 | 0.000000  0.000000  0.000    | 0.089991  0.968750 | 0 hr 15 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0796 683.0    5.0 | 0.000000  0.000000  0.000    | 0.027059  0.992188 | 0 hr 18 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0730 797.0    6.0 | 0.000000  0.000000  0.000    | 0.040076  0.984375 | 0 hr 21 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0658 911.0    7.0 | 0.000000  0.000000  0.000    | 0.072933  0.976562 | 0 hr 24 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0582 1025.0    8.0 | 0.000000  0.000000  0.000    | 0.034351  0.988281 | 0 hr 27 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0505 1139.0    9.0 | 0.000000  0.000000  0.000    | 0.030019  0.984375 | 0 hr 30 min 
+save cycle 0 min acer model: 0.043468400362866644
+save global min acer model: 0.043468400362866644
+baseline_18SE_fusion_48 Cycle 0: 0.0428 1253.0   10.0 | 0.163588  0.043468  0.940    | 0.024693  0.992188 | 0 hr 35 min 
+save cycle 0 min acer model: 0.04112488660417297
+save global min acer model: 0.04112488660417297
+baseline_18SE_fusion_48 Cycle 0: 0.0352 1367.0   11.0 | 0.146165  0.041125  0.943    | 0.017383  0.996094 | 0 hr 40 min 
+save cycle 0 min acer model: 0.016782582400967645
+save global min acer model: 0.016782582400967645
+baseline_18SE_fusion_48 Cycle 0: 0.0280 1481.0   12.0 | 0.065065  0.016783  0.977    | 0.009485  0.996094 | 0 hr 44 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0214 1595.0   13.0 | 0.061687  0.017161  0.976    | 0.039494  0.988281 | 0 hr 49 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0155 1709.0   14.0 | 0.080133  0.022604  0.969    | 0.009608  0.996094 | 0 hr 54 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0105 1823.0   15.0 | 0.094152  0.026988  0.963    | 0.007299  1.000000 | 0 hr 59 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0064 1937.0   16.0 | 0.106386  0.029256  0.960    | 0.006184  1.000000 | 1 hr 04 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0034 2051.0   17.0 | 0.096273  0.026686  0.963    | 0.046231  0.984375 | 1 hr 09 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0016 2165.0   18.0 | 0.073801  0.020638  0.972    | 0.007620  1.000000 | 1 hr 14 min 
+baseline_18SE_fusion_48 Cycle 0: 0.0010 2279.0   19.0 | 0.084961  0.024645  0.966    | 0.005924  1.000000 | 1 hr 18 min 
+save cycle 0 final model 
+baseline_18SE_fusion_48 Cycle 1: 0.0994 2393.0    0.0 | 0.084961  0.024645  0.966    | 0.120564  0.972656 | 1 hr 22 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0976 2507.0    1.0 | 0.084961  0.024645  0.966    | 0.081023  0.972656 | 1 hr 25 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0946 2621.0    2.0 | 0.084961  0.024645  0.966    | 0.037170  0.984375 | 1 hr 28 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0905 2735.0    3.0 | 0.084961  0.024645  0.966    | 0.045742  0.980469 | 1 hr 31 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0855 2849.0    4.0 | 0.084961  0.024645  0.966    | 0.050313  0.980469 | 1 hr 34 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0796 2963.0    5.0 | 0.084961  0.024645  0.966    | 0.100051  0.957031 | 1 hr 37 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0730 3077.0    6.0 | 0.084961  0.024645  0.966    | 0.057046  0.984375 | 1 hr 40 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0658 3191.0    7.0 | 0.084961  0.024645  0.966    | 0.012028  0.996094 | 1 hr 43 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0582 3305.0    8.0 | 0.084961  0.024645  0.966    | 0.053700  0.980469 | 1 hr 46 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0505 3419.0    9.0 | 0.084961  0.024645  0.966    | 0.076148  0.980469 | 1 hr 49 min 
+save cycle 1 min acer model: 0.01882370728757182
+baseline_18SE_fusion_48 Cycle 1: 0.0428 3533.0   10.0 | 0.076116  0.018824  0.974    | 0.043581  0.984375 | 1 hr 54 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0352 3647.0   11.0 | 0.097944  0.024116  0.967    | 0.039792  0.980469 | 1 hr 58 min 
+save cycle 1 min acer model: 0.014892651950408224
+save global min acer model: 0.014892651950408224
+baseline_18SE_fusion_48 Cycle 1: 0.0280 3761.0   12.0 | 0.056372  0.014893  0.979    | 0.022796  0.996094 | 2 hr 03 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0214 3875.0   13.0 | 0.249230  0.070532  0.903    | 0.031690  0.984375 | 2 hr 08 min 
+save cycle 1 min acer model: 0.010054429996976111
+save global min acer model: 0.010054429996976111
+baseline_18SE_fusion_48 Cycle 1: 0.0155 3989.0   14.0 | 0.039046  0.010054  0.986    | 0.014495  0.992188 | 2 hr 13 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0105 4103.0   15.0 | 0.083155  0.022301  0.969    | 0.010348  0.996094 | 2 hr 18 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0064 4217.0   16.0 | 0.100441  0.027291  0.962    | 0.003642  1.000000 | 2 hr 23 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0034 4331.0   17.0 | 0.111441  0.029861  0.959    | 0.005094  1.000000 | 2 hr 28 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0016 4445.0   18.0 | 0.069115  0.017917  0.975    | 0.028501  0.988281 | 2 hr 33 min 
+baseline_18SE_fusion_48 Cycle 1: 0.0010 4559.0   19.0 | 0.107787  0.028803  0.960    | 0.018194  0.992188 | 2 hr 37 min 
+save cycle 1 final model 
+baseline_18SE_fusion_48 Cycle 2: 0.0994 4673.0    0.0 | 0.107787  0.028803  0.960    | 0.045084  0.984375 | 2 hr 41 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0976 4787.0    1.0 | 0.107787  0.028803  0.960    | 0.037783  0.980469 | 2 hr 44 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0946 4901.0    2.0 | 0.107787  0.028803  0.960    | 0.090167  0.972656 | 2 hr 47 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0905 5015.0    3.0 | 0.107787  0.028803  0.960    | 0.060832  0.980469 | 2 hr 50 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0855 5129.0    4.0 | 0.107787  0.028803  0.960    | 0.072923  0.972656 | 2 hr 53 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0796 5243.0    5.0 | 0.107787  0.028803  0.960    | 0.038525  0.988281 | 2 hr 56 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0730 5357.0    6.0 | 0.107787  0.028803  0.960    | 0.040608  0.992188 | 2 hr 59 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0658 5471.0    7.0 | 0.107787  0.028803  0.960    | 0.031786  0.988281 | 3 hr 02 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0582 5585.0    8.0 | 0.107787  0.028803  0.960    | 0.081710  0.976562 | 3 hr 05 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0505 5699.0    9.0 | 0.107787  0.028803  0.960    | 0.013496  0.996094 | 3 hr 08 min 
+save cycle 2 min acer model: 0.008996068944662837
+save global min acer model: 0.008996068944662837
+baseline_18SE_fusion_48 Cycle 2: 0.0428 5813.0   10.0 | 0.039029  0.008996  0.988    | 0.053617  0.984375 | 3 hr 13 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0352 5927.0   11.0 | 0.065025  0.015346  0.979    | 0.016523  0.992188 | 3 hr 18 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0280 6041.0   12.0 | 0.051720  0.012474  0.983    | 0.045301  0.980469 | 3 hr 23 min 
+save cycle 2 min acer model: 0.004384638645297853
+save global min acer model: 0.004384638645297853
+baseline_18SE_fusion_48 Cycle 2: 0.0214 6155.0   13.0 | 0.023115  0.004385  0.994    | 0.038149  0.980469 | 3 hr 27 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0155 6269.0   14.0 | 0.051802  0.012700  0.983    | 0.017434  0.988281 | 3 hr 32 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0105 6383.0   15.0 | 0.036380  0.008920  0.988    | 0.015798  0.992188 | 3 hr 37 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0064 6497.0   16.0 | 0.053916  0.014061  0.981    | 0.007101  1.000000 | 3 hr 42 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0034 6611.0   17.0 | 0.049795  0.012776  0.982    | 0.014765  0.992188 | 3 hr 47 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0016 6725.0   18.0 | 0.055356  0.014363  0.980    | 0.026706  0.988281 | 3 hr 52 min 
+baseline_18SE_fusion_48 Cycle 2: 0.0010 6839.0   19.0 | 0.051842  0.013305  0.982    | 0.010711  1.000000 | 3 hr 57 min 
+save cycle 2 final model 
+baseline_18SE_fusion_48 Cycle 3: 0.0994 6953.0    0.0 | 0.051842  0.013305  0.982    | 0.097754  0.980469 | 4 hr 00 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0976 7067.0    1.0 | 0.051842  0.013305  0.982    | 0.049080  0.980469 | 4 hr 03 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0946 7181.0    2.0 | 0.051842  0.013305  0.982    | 0.096822  0.957031 | 4 hr 06 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0905 7295.0    3.0 | 0.051842  0.013305  0.982    | 0.041122  0.992188 | 4 hr 09 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0855 7409.0    4.0 | 0.051842  0.013305  0.982    | 0.059661  0.984375 | 4 hr 12 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0796 7523.0    5.0 | 0.051842  0.013305  0.982    | 0.044051  0.984375 | 4 hr 15 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0730 7637.0    6.0 | 0.051842  0.013305  0.982    | 0.061651  0.972656 | 4 hr 18 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0658 7751.0    7.0 | 0.051842  0.013305  0.982    | 0.024541  0.992188 | 4 hr 21 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0582 7865.0    8.0 | 0.051842  0.013305  0.982    | 0.042340  0.996094 | 4 hr 24 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0505 7979.0    9.0 | 0.051842  0.013305  0.982    | 0.024067  0.988281 | 4 hr 27 min 
+save cycle 3 min acer model: 0.06864227396431812
+baseline_18SE_fusion_48 Cycle 3: 0.0428 8093.0   10.0 | 0.236315  0.068642  0.905    | 0.015980  0.996094 | 4 hr 32 min 
+save cycle 3 min acer model: 0.003190889388897743
+save global min acer model: 0.003190889388897743
+baseline_18SE_fusion_48 Cycle 3: 0.0352 8207.0   11.0 | 0.014890  0.003191  0.996    | 0.021267  0.992188 | 4 hr 37 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0280 8321.0   12.0 | 0.031980  0.007031  0.990    | 0.031339  0.992188 | 4 hr 42 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0214 8435.0   13.0 | 0.037801  0.009223  0.987    | 0.063292  0.976562 | 4 hr 47 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0155 8549.0   14.0 | 0.066517  0.017992  0.975    | 0.021188  0.992188 | 4 hr 52 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0105 8663.0   15.0 | 0.036290  0.008467  0.988    | 0.010088  0.996094 | 4 hr 57 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0064 8777.0   16.0 | 0.044252  0.011037  0.985    | 0.008417  0.996094 | 5 hr 02 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0034 8891.0   17.0 | 0.041735  0.010584  0.985    | 0.008048  1.000000 | 5 hr 06 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0016 9005.0   18.0 | 0.050978  0.013381  0.982    | 0.013534  0.996094 | 5 hr 11 min 
+baseline_18SE_fusion_48 Cycle 3: 0.0010 9119.0   19.0 | 0.050685  0.013154  0.982    | 0.012270  0.996094 | 5 hr 16 min 
+save cycle 3 final model 
+baseline_18SE_fusion_48 Cycle 4: 0.0994 9233.0    0.0 | 0.050685  0.013154  0.982    | 0.087341  0.957031 | 5 hr 19 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0976 9347.0    1.0 | 0.050685  0.013154  0.982    | 0.045595  0.984375 | 5 hr 22 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0946 9461.0    2.0 | 0.050685  0.013154  0.982    | 0.073537  0.960938 | 5 hr 25 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0905 9575.0    3.0 | 0.050685  0.013154  0.982    | 0.062406  0.976562 | 5 hr 28 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0855 9689.0    4.0 | 0.050685  0.013154  0.982    | 0.050347  0.980469 | 5 hr 31 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0796 9803.0    5.0 | 0.050685  0.013154  0.982    | 0.028120  0.992188 | 5 hr 34 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0730 9917.0    6.0 | 0.050685  0.013154  0.982    | 0.044040  0.980469 | 5 hr 37 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0658 10031.0    7.0 | 0.050685  0.013154  0.982    | 0.035025  0.988281 | 5 hr 40 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0582 10145.0    8.0 | 0.050685  0.013154  0.982    | 0.080480  0.976562 | 5 hr 43 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0505 10259.0    9.0 | 0.050685  0.013154  0.982    | 0.030256  0.992188 | 5 hr 47 min 
+save cycle 4 min acer model: 0.007484124584215301
+baseline_18SE_fusion_48 Cycle 4: 0.0428 10373.0   10.0 | 0.031324  0.007484  0.990    | 0.026933  0.992188 | 5 hr 51 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0352 10487.0   11.0 | 0.125151  0.033338  0.954    | 0.010712  1.000000 | 5 hr 56 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0280 10601.0   12.0 | 0.096884  0.024116  0.967    | 0.028993  0.984375 | 6 hr 01 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0214 10715.0   13.0 | 0.042414  0.009828  0.986    | 0.006345  1.000000 | 6 hr 06 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0155 10829.0   14.0 | 0.033183  0.007711  0.989    | 0.007423  0.996094 | 6 hr 11 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0105 10943.0   15.0 | 0.058012  0.013985  0.981    | 0.034109  0.984375 | 6 hr 16 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0064 11057.0   16.0 | 0.039550  0.009072  0.988    | 0.029048  0.996094 | 6 hr 21 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0034 11171.0   17.0 | 0.038487  0.009374  0.987    | 0.010484  0.996094 | 6 hr 25 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0016 11285.0   18.0 | 0.040526  0.009752  0.987    | 0.006561  0.996094 | 6 hr 30 min 
+baseline_18SE_fusion_48 Cycle 4: 0.0010 11399.0   19.0 | 0.046314  0.011491  0.984    | 0.052709  0.980469 | 6 hr 35 min 
+save cycle 4 final model 
