@@ -43,7 +43,7 @@ train_dataloader = torch.utils.data.DataLoader(
         img_size=256
     ),
     batch_size=6,
-    num_workers=1,
+    num_workers=0,
     shuffle=False
 )
 
@@ -98,6 +98,8 @@ if __name__ == '__main__':
         model.cuda()
         print('Using single-gpu training.')
 
+    # loss fun
+    loss_fun = TripletLoss(margin=0.5).cuda()
 
     def adjust_learning_rate(optimizer, epoch):
         if epoch<30:
@@ -138,9 +140,9 @@ if __name__ == '__main__':
 
         model.train()  # 训练模式
         # step小循环
-        #progress_bar = enumerate(tqdm(train_dataloader))
-        #for batch_idx, batch_sample in progress_bar:     
-        for batch_idx, (batch_sample) in enumerate(train_dataloader):
+        progress_bar = enumerate(tqdm(train_dataloader))
+        for batch_idx, batch_sample in progress_bar:     
+        #for batch_idx, (batch_sample) in enumerate(train_dataloader):
             # 获取本批次的数据
             # 取出三张人脸图(batch*图)
             anc_img = batch_sample['anc_img']
@@ -160,7 +162,7 @@ if __name__ == '__main__':
             # 损失计算
             # 计算这个批次困难样本的三元损失
             # 在159行处，调用triplet_loss完成loss的计算
-            triplet_loss = TripletLoss(anc_embedding, pos_embedding, neg_embedding)
+            triplet_loss = loss_fun.forward(anc_embedding, pos_embedding, neg_embedding)
             
             loss = triplet_loss
 

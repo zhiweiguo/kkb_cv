@@ -1,0 +1,5 @@
+作业说明:
+
+triplet_loss.py		# 完成triplet loss 的计算
+week21_homework.py	# 补充空缺位置的代码，并进行模型训练功能的验证
+train_log.txt		# 训练过程日志

@@ -184,10 +184,12 @@ class TrainDataset(Dataset):
     def __getitem__(self, idx):
 
         anc_id, pos_id, neg_id, pos_class, neg_class, pos_name, neg_name = self.training_triplets[idx]
-
-        anc_img = self.add_extension(os.sep.join(self.face_dir, str(pos_name), str(anc_id)))
-        pos_img = self.add_extension(os.sep.join(self.face_dir, str(pos_name), str(pos_id)))
-        neg_img = self.add_extension(os.sep.join(self.face_dir, str(neg_name), str(neg_id)))
+        #print("face_dir:{}".format(self.face_dir))
+        #print("pos_name:{}".format(pos_name))
+        #print("anc_id:{}".format(anc_id))
+        anc_img = self.add_extension(os.path.join(self.face_dir, pos_name, anc_id))
+        pos_img = self.add_extension(os.path.join(self.face_dir, pos_name, pos_id))
+        neg_img = self.add_extension(os.path.join(self.face_dir, neg_name, neg_id))
 
         #anc_img = self.preprocess(anc_img, self.detector, self.predictor, self.img_size)
         #pos_img = self.preprocess(pos_img, self.detector, self.predictor, self.img_size)
