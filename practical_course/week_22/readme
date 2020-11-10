@@ -1,0 +1,8 @@
+作业说明：
+
+
+*.py		# 训练相关源码
+results/	# 64,128,256维度的测试集acc、auc结果图
+train_model_res/	# 64,128,256维度的模型训练文件（命名规则： resnet18_epoch_loss.pth），可以看loss变化
+
+# 每个维度的模型均训练了25个epoch，loss下降缓慢，与数据集量少有关系
