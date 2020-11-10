@@ -3,7 +3,7 @@ from torch.autograd import Function
 from torch.nn.modules.distance import PairwiseDistance
 
 
-class TripletLoss(Function):
+class TripletLoss(torch.nn.Module):
 
     def __init__(self, margin):
         super(TripletLoss, self).__init__()
@@ -12,7 +12,8 @@ class TripletLoss(Function):
     def forward(self, anchor, positive, negative):
         # [在triplet_loss.py 的 13行位置处，填写代码，完成triplet loss的计算]
         # 法一:
-        loss = max(self.pdist(anchor, positive)-self.pdist(anchor, negative)+self.margin, 0)
+        loss = torch.clamp(self.pdist.forward(anchor, positive)-self.pdist.forward(anchor, negative)+self.margin, 0.0)
+        loss = torch.mean(loss)
         
         return loss
 
