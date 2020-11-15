@@ -1,0 +1,8 @@
+作业说明：
+
+
+cbam_resnet.py		 	# cbam版本resnet
+week23_train.py			# 训练相关源码
+week23_test.py			# 测试相关源码
+result.jpg				# 128维度的cbam_resnet模型在测试集中acc、auc结果图
+ckpt.jpg				# 128维度的模型训练文件（命名规则： cbam_resnet18_epoch_loss.pth），可以看loss变化
